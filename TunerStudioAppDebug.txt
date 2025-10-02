@@ -1,0 +1,2327 @@
+Starting on cyberman
+TunerStudio 3.3.00 started on Sun Sep 28 16:49:53 EDT 2025
+JRE 21.0.8, Linux 6.12.43+deb13-amd64, amd64
+java.library.path=lib/alternateLinuxDrivers/x86_64-linux:lib
+TunerStudioMS.jar
+java.lang.reflect.InaccessibleObjectException: Unable to make field private static java.nio.charset.Charset java.nio.charset.Charset.defaultCharset accessible: module java.base does not "opens java.nio.charset" to unnamed module @36f6e879
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:183)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:177)
+	at TunerStudio.main(Unknown Source)
+Look:Metal, ClassName:'javax.swing.plaf.metal.MetalLookAndFeel'
+Look:Nimbus, ClassName:'javax.swing.plaf.nimbus.NimbusLookAndFeel'
+Look:CDE/Motif, ClassName:'com.sun.java.swing.plaf.motif.MotifLookAndFeel'
+Look:GTK+, ClassName:'com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
+Look:Night Shade, ClassName:'de.muntjak.tinylookandfeel.TinyLookAndFeel'
+Setting Look & Feel to:javax.swing.plaf.metal.MetalLookAndFeel
+ScrollBar.width
+9/28/25, 4:49:53 PM :Debug: no update:defaultFont
+9/28/25, 4:49:53 PM :Info: Initializing File Dialogs.
+9/28/25, 4:49:54 PM :Info: One time setup, Copying Default Projects and components..
+9/28/25, 4:49:54 PM :Info: Expanding Zip File: /opt/TunerStudioMS/Projects/MS2-Extra-Example.zip, to dir: /home/steev/TunerStudioProjects
+9/28/25, 4:49:55 PM :Info: Expanding Zip File: /opt/TunerStudioMS/Projects/MS3-Example_Project.zip, to dir: /home/steev/TunerStudioProjects
+9/28/25, 4:49:56 PM :Info: Expanding Zip File: /opt/TunerStudioMS/Projects/MSII_BG_2.905_Example.zip, to dir: /home/steev/TunerStudioProjects
+9/28/25, 4:49:56 PM :Info: Expanding Zip File: /opt/TunerStudioMS/Projects/MS1_Extra_Example.zip, to dir: /home/steev/TunerStudioProjects
+9/28/25, 4:49:57 PM :Info: Expanding Zip File: /opt/TunerStudioMS/Projects/MS1_BG_3.0.zip, to dir: /home/steev/TunerStudioProjects
+Registration file not found. 
+9/28/25, 4:49:58 PM :Info: Loading Language Content.
+9/28/25, 4:49:58 PM :Info: Finishing Upgrade....
+9/28/25, 4:49:58 PM :Debug: Delete Results startScreenRoot true
+Saved user properties successfully
+9/28/25, 4:49:58 PM :Debug: Command Non-VolatileBytes for F resolved to: x46                                                                   F
+9/28/25, 4:49:58 PM :Debug: Command Non-VolatileBytes for I resolved to: x49                                                                   I
+9/28/25, 4:49:58 PM :Debug: Command Non-VolatileBytes for f resolved to: x66                                                                   f
+9/28/25, 4:49:58 PM :Info: Initializing Help.
+9/28/25, 4:49:58 PM :Info: Initializing Edition Features.
+9/28/25, 4:49:58 PM :Info: Initializing App Events.
+9/28/25, 4:49:58 PM :Debug: App Name:TunerStudio, appEdition:MS Lite!
+9/28/25, 4:49:58 PM :Debug: Dummy Function Factory Created.
+9/28/25, 4:49:58 PM :Info: Initializing User Interface
+9/28/25, 4:49:59 PM :Info: Checking for updates
+9/28/25, 4:50:00 PM :Info: Loading Font list.
+9/28/25, 4:50:00 PM :Debug: Time to retreive font name list: 3 ms.
+9/28/25, 4:50:00 PM :Info: 
+9/28/25, 4:50:00 PM :Info: Initializing UI Components.
+9/28/25, 4:50:00 PM :Info: Ready
+9/28/25, 4:50:01 PM :Debug: Running speed test
+9/28/25, 4:50:01 PM :Info: IniUpdate: No updates available.
+9/28/25, 4:50:01 PM :Info: Internet detected, doing update check: IncUpdate
+9/28/25, 4:50:02 PM :Info: Download of: ms2ReferenceTables.ini, succeeded! File size: 6598 bytes
+9/28/25, 4:50:02 PM :Info: IncUpdate: Update to 0.02
+Saved user properties successfully
+9/28/25, 4:50:02 PM :Debug: Processor Score:1433821
+Saved user properties successfully
+9/28/25, 4:50:02 PM :Info: Update Check Completed
+Saved user properties successfully
+9/28/25, 4:50:02 PM :Debug: Saved user log settings.
+9/28/25, 4:50:05 PM :Debug: Delete Results prepped_index.html true
+9/28/25, 4:50:05 PM :Debug: Delete Results index.html true
+9/28/25, 4:50:05 PM :Debug: Delete Results doubleSweep-400pi.png true
+9/28/25, 4:50:05 PM :Debug: Delete Results Histogram-250px.png true
+9/28/25, 4:50:05 PM :Debug: Delete Results whatsNew.jpg true
+9/28/25, 4:50:05 PM :Debug: Delete Results images true
+9/28/25, 4:50:05 PM :Debug: Delete Results index1.html true
+9/28/25, 4:50:05 PM :Debug: Delete Results addInfo.properties true
+9/28/25, 4:50:05 PM :Debug: Delete Results ad true
+9/28/25, 4:50:06 PM :Info: Download of: ad.zip, succeeded! File size: 152588 bytes
+9/28/25, 4:50:06 PM :Info: Updating Start Screen.
+9/28/25, 4:50:06 PM :Info: Expanding Zip File: /home/steev/.efiAnalytics/TunerStudio/startScreenRoot/ad/ad.zip, to dir: /home/steev/.efiAnalytics/TunerStudio/startScreenRoot/ad
+9/28/25, 4:50:06 PM :Info: Updated Start Screen: MSad
+Saved user properties successfully
+MSad: No check, last update check=Sun Sep 28 16:50:06 EDT 2025
+9/28/25, 4:50:29 PM :Info: Opening URL: file:////opt/TunerStudioMS/./help/learnMore.html
+Saved user properties successfully
+[Duplicate entry] received 2 times: Info: Opening URL: file:////opt/TunerStudioMS/./help/learnMore.html
+9/28/25, 5:01:40 PM :Info: Updating ai & t
+Jar Name:TunerStudioMS.jar
+Saved user properties successfully
+9/28/25, 5:01:43 PM :Debug: Saved user log settings.
+9/28/25, 5:01:43 PM :Debug: Restarting with command: '/usr/bin/java', then '/opt/TunerStudioMS/TunerStudio.sh
+9/28/25, 5:01:44 PM :Info: closeApp Called
+9/28/25, 5:01:44 PM :Info: Finalizing Sensors
+Saved user properties successfully
+9/28/25, 5:01:44 PM :Debug: Saved user log settings.
+Starting on cyberman
+TunerStudio 3.3.00 started on Sun Sep 28 17:01:46 EDT 2025
+JRE 21.0.8, Linux 6.12.43+deb13-amd64, amd64
+java.library.path=lib/alternateLinuxDrivers/x86_64-linux:lib
+TunerStudioMS.jar
+java.lang.reflect.InaccessibleObjectException: Unable to make field private static java.nio.charset.Charset java.nio.charset.Charset.defaultCharset accessible: module java.base does not "opens java.nio.charset" to unnamed module @6df97b55
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:183)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:177)
+	at TunerStudio.main(Unknown Source)
+Look:Metal, ClassName:'javax.swing.plaf.metal.MetalLookAndFeel'
+Look:Nimbus, ClassName:'javax.swing.plaf.nimbus.NimbusLookAndFeel'
+Look:CDE/Motif, ClassName:'com.sun.java.swing.plaf.motif.MotifLookAndFeel'
+Look:GTK+, ClassName:'com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
+Look:Night Shade, ClassName:'de.muntjak.tinylookandfeel.TinyLookAndFeel'
+Setting Look & Feel to:javax.swing.plaf.metal.MetalLookAndFeel
+ScrollBar.width
+9/28/25, 5:01:46 PM :Debug: no update:defaultFont
+9/28/25, 5:01:46 PM :Info: Initializing File Dialogs.
+9/28/25, 5:01:46 PM :Info: Updating ai & t
+9/28/25, 5:01:46 PM :Info: Loading Language Content.
+9/28/25, 5:01:48 PM :Debug: Command Non-VolatileBytes for F resolved to: x46                                                                   F
+9/28/25, 5:01:48 PM :Debug: Command Non-VolatileBytes for I resolved to: x49                                                                   I
+9/28/25, 5:01:48 PM :Debug: Command Non-VolatileBytes for f resolved to: x66                                                                   f
+9/28/25, 5:01:48 PM :Info: Initializing Plugin Services.
+9/28/25, 5:01:48 PM :Info: Loading Plugins.
+9/28/25, 5:01:48 PM :Info: Initializing Help.
+9/28/25, 5:01:49 PM :Info: Initializing Edition Features.
+9/28/25, 5:01:49 PM :Info: Initializing App Events.
+9/28/25, 5:01:49 PM :Debug: App Name:TunerStudio, appEdition:MS
+9/28/25, 5:01:49 PM :Info: Initializing User Interface
+9/28/25, 5:01:51 PM :Info: Loading Font list.
+9/28/25, 5:01:51 PM :Debug: Time to retreive font name list: 2 ms.
+9/28/25, 5:01:51 PM :Info: 
+9/28/25, 5:01:51 PM :Info: Initializing UI Components.
+9/28/25, 5:01:51 PM :Info: Ready
+9/28/25, 5:01:51 PM :Info: IncUpdate: No updates available.
+9/28/25, 5:01:51 PM :Info: IniUpdate: No updates available.
+MSmain: No check, last update check=Sun Sep 28 16:50:02 EDT 2025
+MSad: No check, last update check=Sun Sep 28 16:50:06 EDT 2025
+9/28/25, 5:02:01 PM :Info: closeApp Called
+9/28/25, 5:02:01 PM :Info: Finalizing Sensors
+Saved user properties successfully
+Starting on cyberman
+TunerStudio 3.3.00 started on Sun Sep 28 17:11:13 EDT 2025
+JRE 21.0.8, Linux 6.12.43+deb13-amd64, amd64
+java.library.path=lib/alternateLinuxDrivers/x86_64-linux:lib
+TunerStudioMS.jar
+java.lang.reflect.InaccessibleObjectException: Unable to make field private static java.nio.charset.Charset java.nio.charset.Charset.defaultCharset accessible: module java.base does not "opens java.nio.charset" to unnamed module @54a097cc
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:183)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:177)
+	at TunerStudio.main(Unknown Source)
+Look:Metal, ClassName:'javax.swing.plaf.metal.MetalLookAndFeel'
+Look:Nimbus, ClassName:'javax.swing.plaf.nimbus.NimbusLookAndFeel'
+Look:CDE/Motif, ClassName:'com.sun.java.swing.plaf.motif.MotifLookAndFeel'
+Look:GTK+, ClassName:'com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
+Look:Night Shade, ClassName:'de.muntjak.tinylookandfeel.TinyLookAndFeel'
+Setting Look & Feel to:javax.swing.plaf.metal.MetalLookAndFeel
+ScrollBar.width
+9/28/25, 5:11:13 PM :Debug: no update:defaultFont
+9/28/25, 5:11:13 PM :Info: Initializing File Dialogs.
+9/28/25, 5:11:13 PM :Info: Updating ai & t
+9/28/25, 5:11:13 PM :Info: Loading Language Content.
+9/28/25, 5:11:13 PM :Debug: Command Non-VolatileBytes for F resolved to: x46                                                                   F
+9/28/25, 5:11:13 PM :Debug: Command Non-VolatileBytes for I resolved to: x49                                                                   I
+9/28/25, 5:11:13 PM :Debug: Command Non-VolatileBytes for f resolved to: x66                                                                   f
+9/28/25, 5:11:13 PM :Info: Initializing Plugin Services.
+9/28/25, 5:11:13 PM :Info: Loading Plugins.
+9/28/25, 5:11:13 PM :Info: Initializing Help.
+9/28/25, 5:11:13 PM :Info: Initializing Edition Features.
+9/28/25, 5:11:13 PM :Info: Initializing App Events.
+9/28/25, 5:11:13 PM :Debug: App Name:TunerStudio, appEdition:MS
+9/28/25, 5:11:13 PM :Info: Initializing User Interface
+9/28/25, 5:11:15 PM :Info: Loading Font list.
+9/28/25, 5:11:15 PM :Debug: Time to retreive font name list: 1 ms.
+9/28/25, 5:11:15 PM :Info: 
+9/28/25, 5:11:15 PM :Info: Initializing UI Components.
+9/28/25, 5:11:15 PM :Info: Ready
+9/28/25, 5:11:16 PM :Info: IniUpdate: No updates available.
+9/28/25, 5:11:16 PM :Info: IncUpdate: No updates available.
+MSmain: No check, last update check=Sun Sep 28 16:50:02 EDT 2025
+9/28/25, 5:11:17 PM :Info: closeApp Called
+9/28/25, 5:11:17 PM :Info: Finalizing Sensors
+Saved user properties successfully
+Starting on cyberman
+TunerStudio 3.3.00 started on Sun Sep 28 17:11:20 EDT 2025
+JRE 21.0.8, Linux 6.12.43+deb13-amd64, amd64
+java.library.path=lib/alternateLinuxDrivers/x86_64-linux:lib
+TunerStudioMS.jar
+java.lang.reflect.InaccessibleObjectException: Unable to make field private static java.nio.charset.Charset java.nio.charset.Charset.defaultCharset accessible: module java.base does not "opens java.nio.charset" to unnamed module @6df97b55
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:183)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:177)
+	at TunerStudio.main(Unknown Source)
+Look:Metal, ClassName:'javax.swing.plaf.metal.MetalLookAndFeel'
+Look:Nimbus, ClassName:'javax.swing.plaf.nimbus.NimbusLookAndFeel'
+Look:CDE/Motif, ClassName:'com.sun.java.swing.plaf.motif.MotifLookAndFeel'
+Look:GTK+, ClassName:'com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
+Look:Night Shade, ClassName:'de.muntjak.tinylookandfeel.TinyLookAndFeel'
+Setting Look & Feel to:javax.swing.plaf.metal.MetalLookAndFeel
+ScrollBar.width
+9/28/25, 5:11:20 PM :Debug: no update:defaultFont
+9/28/25, 5:11:20 PM :Info: Initializing File Dialogs.
+9/28/25, 5:11:20 PM :Info: Updating ai & t
+9/28/25, 5:11:20 PM :Info: Loading Language Content.
+9/28/25, 5:11:22 PM :Debug: Command Non-VolatileBytes for F resolved to: x46                                                                   F
+9/28/25, 5:11:22 PM :Debug: Command Non-VolatileBytes for I resolved to: x49                                                                   I
+9/28/25, 5:11:22 PM :Debug: Command Non-VolatileBytes for f resolved to: x66                                                                   f
+9/28/25, 5:11:22 PM :Info: Initializing Plugin Services.
+9/28/25, 5:11:22 PM :Info: Loading Plugins.
+9/28/25, 5:11:22 PM :Info: Initializing Help.
+9/28/25, 5:11:22 PM :Info: Initializing Edition Features.
+9/28/25, 5:11:22 PM :Info: Initializing App Events.
+9/28/25, 5:11:22 PM :Debug: App Name:TunerStudio, appEdition:MS
+9/28/25, 5:11:22 PM :Info: Initializing User Interface
+9/28/25, 5:11:24 PM :Info: Loading Font list.
+9/28/25, 5:11:24 PM :Debug: Time to retreive font name list: 1 ms.
+9/28/25, 5:11:24 PM :Info: 
+9/28/25, 5:11:24 PM :Info: Initializing UI Components.
+9/28/25, 5:11:24 PM :Info: Ready
+9/28/25, 5:11:25 PM :Info: IncUpdate: No updates available.
+9/28/25, 5:11:25 PM :Info: IniUpdate: No updates available.
+MSmain: No check, last update check=Sun Sep 28 16:50:02 EDT 2025
+MSad: No check, last update check=Sun Sep 28 16:50:06 EDT 2025
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+9/28/25, 5:11:35 PM :Debug: set baud to 115200
+[Duplicate entry] received 2 times: Debug: set baud to 115200
+9/28/25, 5:11:39 PM :Debug: Cancel Wizard
+9/28/25, 5:11:42 PM :Info: Checking for updates
+9/28/25, 5:11:42 PM :Info: IncUpdate: No updates available.
+9/28/25, 5:11:43 PM :Info: IniUpdate: No updates available.
+Saved user properties successfully
+9/28/25, 5:11:45 PM :Info: No updates available.
+Saved user properties successfully
+9/28/25, 5:11:54 PM :Info: Opening URL: http://tunerstudio.com/index.php/products/tuner-studio/tsarticles/126-log-playback
+Starting on cyberman
+TunerStudio 3.3.00 started on Sun Sep 28 17:55:58 EDT 2025
+JRE 21.0.8, Linux 6.12.43+deb13-amd64, amd64
+java.library.path=lib/alternateLinuxDrivers/x86_64-linux:lib
+TunerStudioMS.jar
+java.lang.reflect.InaccessibleObjectException: Unable to make field private static java.nio.charset.Charset java.nio.charset.Charset.defaultCharset accessible: module java.base does not "opens java.nio.charset" to unnamed module @54a097cc
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:183)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:177)
+	at TunerStudio.main(Unknown Source)
+Look:Metal, ClassName:'javax.swing.plaf.metal.MetalLookAndFeel'
+Look:Nimbus, ClassName:'javax.swing.plaf.nimbus.NimbusLookAndFeel'
+Look:CDE/Motif, ClassName:'com.sun.java.swing.plaf.motif.MotifLookAndFeel'
+Look:GTK+, ClassName:'com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
+Look:Night Shade, ClassName:'de.muntjak.tinylookandfeel.TinyLookAndFeel'
+Setting Look & Feel to:javax.swing.plaf.metal.MetalLookAndFeel
+ScrollBar.width
+9/28/25, 5:55:58 PM :Debug: no update:defaultFont
+9/28/25, 5:55:58 PM :Info: Initializing File Dialogs.
+9/28/25, 5:55:59 PM :Info: Updating ai & t
+9/28/25, 5:56:00 PM :Info: Loading Language Content.
+9/28/25, 5:56:02 PM :Debug: Command Non-VolatileBytes for F resolved to: x46                                                                   F
+9/28/25, 5:56:02 PM :Debug: Command Non-VolatileBytes for I resolved to: x49                                                                   I
+9/28/25, 5:56:02 PM :Debug: Command Non-VolatileBytes for f resolved to: x66                                                                   f
+9/28/25, 5:56:02 PM :Info: Initializing Plugin Services.
+9/28/25, 5:56:02 PM :Info: Loading Plugins.
+9/28/25, 5:56:02 PM :Info: Initializing Help.
+9/28/25, 5:56:02 PM :Info: Initializing Edition Features.
+9/28/25, 5:56:02 PM :Info: Initializing App Events.
+9/28/25, 5:56:02 PM :Debug: App Name:TunerStudio, appEdition:MS
+9/28/25, 5:56:02 PM :Info: Initializing User Interface
+9/28/25, 5:56:04 PM :Info: Loading Font list.
+9/28/25, 5:56:04 PM :Debug: Time to retreive font name list: 3 ms.
+9/28/25, 5:56:04 PM :Info: 
+9/28/25, 5:56:04 PM :Info: Initializing UI Components.
+9/28/25, 5:56:04 PM :Info: Ready
+9/28/25, 5:56:04 PM :Info: IncUpdate: No updates available.
+9/28/25, 5:56:04 PM :Info: IniUpdate: No updates available.
+9/28/25, 5:56:05 PM :Debug: Running speed test
+MSmain: No check, last update check=Sun Sep 28 16:50:02 EDT 2025
+9/28/25, 5:56:06 PM :Debug: Processor Score:1494729
+MSad: No check, last update check=Sun Sep 28 16:50:06 EDT 2025
+9/28/25, 5:56:09 PM :Debug: Time to load ini list: 26ms.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+9/28/25, 5:56:26 PM :Debug: Cancel Wizard
+ScrollBar.width
+ScrollBar.width
+9/28/25, 5:56:49 PM :Debug: File Changed:
+	Old:null
+	New:null
+Saved user properties successfully
+Jar Name:TunerStudioMS.jar
+Saved user properties successfully
+[Duplicate entry] received 4 times: Debug: File Changed:
+	Old:null
+	New:null
+9/28/25, 5:56:56 PM :Debug: Restarting with command: '/usr/bin/java', then '/opt/TunerStudioMS/TunerStudio.sh
+9/28/25, 5:56:56 PM :Info: closeApp Called
+9/28/25, 5:56:56 PM :Info: Finalizing Sensors
+Saved user properties successfully
+Starting on cyberman
+TunerStudio 3.3.00 started on Sun Sep 28 17:56:59 EDT 2025
+JRE 21.0.8, Linux 6.12.43+deb13-amd64, amd64
+java.library.path=lib/alternateLinuxDrivers/x86_64-linux:lib
+TunerStudioMS.jar
+java.lang.reflect.InaccessibleObjectException: Unable to make field private static java.nio.charset.Charset java.nio.charset.Charset.defaultCharset accessible: module java.base does not "opens java.nio.charset" to unnamed module @7225790e
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:183)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:177)
+	at TunerStudio.main(Unknown Source)
+Look:Metal, ClassName:'javax.swing.plaf.metal.MetalLookAndFeel'
+Look:Nimbus, ClassName:'javax.swing.plaf.nimbus.NimbusLookAndFeel'
+Look:CDE/Motif, ClassName:'com.sun.java.swing.plaf.motif.MotifLookAndFeel'
+Look:GTK+, ClassName:'com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
+Look:Night Shade, ClassName:'de.muntjak.tinylookandfeel.TinyLookAndFeel'
+Setting Look & Feel to:de.muntjak.tinylookandfeel.TinyLookAndFeel
+TinyLaF v1.4.0
+Theme: jar:file:/opt/TunerStudioMS/TunerStudioMS.jar!/Default.theme
+ScrollBar.width
+9/28/25, 5:56:59 PM :Debug: no update:defaultFont
+9/28/25, 5:56:59 PM :Info: Initializing File Dialogs.
+9/28/25, 5:56:59 PM :Info: Updating ai & t
+9/28/25, 5:56:59 PM :Info: Loading Language Content.
+9/28/25, 5:57:01 PM :Debug: Command Non-VolatileBytes for F resolved to: x46                                                                   F
+9/28/25, 5:57:01 PM :Debug: Command Non-VolatileBytes for I resolved to: x49                                                                   I
+9/28/25, 5:57:01 PM :Debug: Command Non-VolatileBytes for f resolved to: x66                                                                   f
+9/28/25, 5:57:01 PM :Info: Initializing Plugin Services.
+9/28/25, 5:57:01 PM :Info: Loading Plugins.
+9/28/25, 5:57:01 PM :Info: Initializing Help.
+9/28/25, 5:57:01 PM :Info: Initializing Edition Features.
+9/28/25, 5:57:01 PM :Info: Initializing App Events.
+9/28/25, 5:57:01 PM :Debug: App Name:TunerStudio, appEdition:MS
+9/28/25, 5:57:01 PM :Info: Initializing User Interface
+9/28/25, 5:57:03 PM :Info: Loading Font list.
+9/28/25, 5:57:03 PM :Debug: Time to retreive font name list: 2 ms.
+9/28/25, 5:57:03 PM :Info: 
+9/28/25, 5:57:03 PM :Info: Initializing UI Components.
+9/28/25, 5:57:03 PM :Info: Ready
+9/28/25, 5:57:04 PM :Info: IncUpdate: No updates available.
+9/28/25, 5:57:04 PM :Info: IniUpdate: No updates available.
+MSmain: No check, last update check=Sun Sep 28 16:50:02 EDT 2025
+MSad: No check, last update check=Sun Sep 28 16:50:06 EDT 2025
+Saved user properties successfully
+Jar Name:TunerStudioMS.jar
+Saved user properties successfully
+9/28/25, 5:57:11 PM :Debug: Restarting with command: '/usr/bin/java', then '/opt/TunerStudioMS/TunerStudio.sh
+9/28/25, 5:57:11 PM :Info: closeApp Called
+9/28/25, 5:57:11 PM :Info: Finalizing Sensors
+Saved user properties successfully
+Starting on cyberman
+TunerStudio 3.3.00 started on Sun Sep 28 17:57:14 EDT 2025
+JRE 21.0.8, Linux 6.12.43+deb13-amd64, amd64
+java.library.path=lib/alternateLinuxDrivers/x86_64-linux:lib
+TunerStudioMS.jar
+java.lang.reflect.InaccessibleObjectException: Unable to make field private static java.nio.charset.Charset java.nio.charset.Charset.defaultCharset accessible: module java.base does not "opens java.nio.charset" to unnamed module @35fb3008
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:183)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:177)
+	at TunerStudio.main(Unknown Source)
+Look:Metal, ClassName:'javax.swing.plaf.metal.MetalLookAndFeel'
+Look:Nimbus, ClassName:'javax.swing.plaf.nimbus.NimbusLookAndFeel'
+Look:CDE/Motif, ClassName:'com.sun.java.swing.plaf.motif.MotifLookAndFeel'
+Look:GTK+, ClassName:'com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
+Look:Night Shade, ClassName:'de.muntjak.tinylookandfeel.TinyLookAndFeel'
+Setting Look & Feel to:javax.swing.plaf.metal.MetalLookAndFeel
+ScrollBar.width
+9/28/25, 5:57:14 PM :Debug: no update:defaultFont
+9/28/25, 5:57:14 PM :Info: Initializing File Dialogs.
+9/28/25, 5:57:14 PM :Info: Updating ai & t
+9/28/25, 5:57:14 PM :Info: Loading Language Content.
+9/28/25, 5:57:16 PM :Debug: Command Non-VolatileBytes for F resolved to: x46                                                                   F
+9/28/25, 5:57:16 PM :Debug: Command Non-VolatileBytes for I resolved to: x49                                                                   I
+9/28/25, 5:57:16 PM :Debug: Command Non-VolatileBytes for f resolved to: x66                                                                   f
+9/28/25, 5:57:16 PM :Info: Initializing Plugin Services.
+9/28/25, 5:57:16 PM :Info: Loading Plugins.
+9/28/25, 5:57:16 PM :Info: Initializing Help.
+9/28/25, 5:57:16 PM :Info: Initializing Edition Features.
+9/28/25, 5:57:16 PM :Info: Initializing App Events.
+9/28/25, 5:57:16 PM :Debug: App Name:TunerStudio, appEdition:MS
+9/28/25, 5:57:16 PM :Info: Initializing User Interface
+9/28/25, 5:57:18 PM :Info: Loading Font list.
+9/28/25, 5:57:18 PM :Debug: Time to retreive font name list: 1 ms.
+9/28/25, 5:57:18 PM :Info: 
+9/28/25, 5:57:18 PM :Info: Initializing UI Components.
+9/28/25, 5:57:18 PM :Info: Ready
+9/28/25, 5:57:19 PM :Info: IncUpdate: No updates available.
+9/28/25, 5:57:19 PM :Info: IniUpdate: No updates available.
+MSmain: No check, last update check=Sun Sep 28 16:50:02 EDT 2025
+MSad: No check, last update check=Sun Sep 28 16:50:06 EDT 2025
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+java.net.SocketException: Network is unreachable
+	at java.base/sun.nio.ch.DatagramChannelImpl.send0(Native Method)
+	at java.base/sun.nio.ch.DatagramChannelImpl.sendFromNativeBuffer(DatagramChannelImpl.java:1005)
+	at java.base/sun.nio.ch.DatagramChannelImpl.send(DatagramChannelImpl.java:966)
+	at java.base/sun.nio.ch.DatagramChannelImpl.send(DatagramChannelImpl.java:889)
+	at java.base/sun.nio.ch.DatagramChannelImpl.blockingSend(DatagramChannelImpl.java:952)
+	at java.base/sun.nio.ch.DatagramSocketAdaptor.send(DatagramSocketAdaptor.java:193)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:662)
+	at ay.f.e(Unknown Source)
+	at ay.f.a(Unknown Source)
+	at ay.g.run(Unknown Source)
+9/28/25, 6:21:32 PM :Debug: HttpService Search Failed
+[Duplicate entry] received 10 times: Debug: HttpService Search Failed
+9/28/25, 7:24:02 PM :Debug: HttpService Search Failed
+[Duplicate entry] received 16 times: Debug: HttpService Search Failed
+9/28/25, 7:55:26 PM :Debug: HttpService Search Failed
+[Duplicate entry] received 10 times: Debug: HttpService Search Failed
+9/28/25, 8:27:13 PM :Debug: HttpService Search Failed
+[Duplicate entry] received 2 times: Debug: HttpService Search Failed
+9/28/25, 9:29:35 PM :Debug: HttpService Search Failed
+[Duplicate entry] received 7 times: Debug: HttpService Search Failed
+9/28/25, 10:32:02 PM :Debug: HttpService Search Failed
+[Duplicate entry] received 9 times: Debug: HttpService Search Failed
+9/29/25, 1:08:48 AM :Debug: HttpService Search Failed
+[Duplicate entry] received 6 times: Debug: HttpService Search Failed
+9/29/25, 3:45:25 AM :Debug: HttpService Search Failed
+[Duplicate entry] received 4 times: Debug: HttpService Search Failed
+9/29/25, 6:53:08 AM :Debug: HttpService Search Failed
+[Duplicate entry] received 6 times: Debug: HttpService Search Failed
+9/29/25, 12:14:05 PM :Debug: Directory Changed:
+	Old:/home/steev
+	New:/home/steev/TunerStudioProjects
+9/29/25, 12:14:19 PM :Debug: Time to load ini list: 36ms.
+9/29/25, 12:14:23 PM :Debug: Cancel Wizard
+9/29/25, 12:14:27 PM :Debug: Time to load ini list: 11ms.
+Sep 29, 2025 12:14:45 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 0 (All:1)
+9/29/25, 12:14:45 PM :Debug: Created CheckThread
+Saved user properties successfully
+9/29/25, 12:14:45 PM :Info: Setting connection to: USB D2XX, Serial #Auto @ 115200 Baud
+Sep 29, 2025 12:14:45 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 1 (All:1)
+9/29/25, 12:14:45 PM :Debug: Opening Connection to FTDI Device: USB D2XX, Serial # @ 115200 Baud
+Device: FTDevice{devDescription=, devSerialNumber=}
+Device Type: DEVICE_UNKNOWN
+Device ID: 0
+Device Location ID: 0
+Sep 29, 2025 12:14:45 PM aB.b f
+SEVERE: null
+com.ftdi.FTD2XXException: D2XX error, ftStatus:DEVICE_NOT_FOUND
+	at com.ftdi.FTDevice.ensureFTStatus(FTDevice.java:146)
+	at com.ftdi.FTDevice.open(FTDevice.java:327)
+	at aB.b.f(Unknown Source)
+	at A.t.h(Unknown Source)
+	at A.m.b(Unknown Source)
+	at A.m.a(Unknown Source)
+	at A.n.run(Unknown Source)
+
+9/29/25, 12:14:45 PM :Info: USB D2XX, Serial #Auto @ 115200 Baud Controller not found
+Saved user properties successfully
+Saved user properties successfully
+9/29/25, 12:14:45 PM :Info: Setting connection to: USB D2XX, Serial #Auto @ 9600 Baud
+Sep 29, 2025 12:14:45 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 1 (All:1)
+9/29/25, 12:14:45 PM :Debug: Opening Connection to FTDI Device: USB D2XX, Serial # @ 9600 Baud
+Device: FTDevice{devDescription=, devSerialNumber=}
+Device Type: DEVICE_UNKNOWN
+Device ID: 0
+Device Location ID: 0
+Sep 29, 2025 12:14:45 PM aB.b f
+SEVERE: null
+com.ftdi.FTD2XXException: D2XX error, ftStatus:DEVICE_NOT_FOUND
+	at com.ftdi.FTDevice.ensureFTStatus(FTDevice.java:146)
+	at com.ftdi.FTDevice.open(FTDevice.java:327)
+	at aB.b.f(Unknown Source)
+	at A.t.h(Unknown Source)
+	at A.m.b(Unknown Source)
+	at A.m.a(Unknown Source)
+	at A.n.run(Unknown Source)
+
+9/29/25, 12:14:45 PM :Info: USB D2XX, Serial #Auto @ 9600 Baud Controller not found
+Saved user properties successfully
+9/29/25, 12:14:46 PM :Debug: set baud to 115200
+Saved user properties successfully
+[Duplicate entry] received 2 times: Debug: set baud to 115200
+9/29/25, 12:14:46 PM :Info: Setting connection to: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 12:14:46 PM :Debug: !!!!!! Time to Connect = 6
+9/29/25, 12:14:48 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x51                                                                   Q
+9/29/25, 12:14:48 PM :Info: Comm Read Thread Change! Old Thread:null, new Thread:check
+
+9/29/25, 12:14:48 PM :Debug: Purged 1 orphaned bytes:
+9/29/25, 12:14:48 PM :Debug: Time:3.3s. 0x0 
+9/29/25, 12:14:48 PM :Debug: Time:3.301s. 
+
+9/29/25, 12:14:48 PM :Debug: Time:3.301s.   .  
+9/29/25, 12:14:48 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 12:14:48 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x53                                                                   S
+9/29/25, 12:14:49 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 12:14:49 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x0D                                                                   .
+9/29/25, 12:14:50 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200, completed this port query
+9/29/25, 12:14:50 PM :Info: Timeout on: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 12:14:50 PM :Info: no Controller found on RS232: Port:/dev/ttyS0, Baud:115200
+Saved user properties successfully
+9/29/25, 12:14:50 PM :Debug: set baud to 9600
+Saved user properties successfully
+9/29/25, 12:14:50 PM :Info: Setting connection to: RS232: Port:/dev/ttyS0, Baud:9600
+9/29/25, 12:14:50 PM :Debug: !!!!!! Time to Connect = 1
+9/29/25, 12:14:51 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x51                                                                   Q
+
+9/29/25, 12:14:51 PM :Debug: Purged 1 orphaned bytes:
+9/29/25, 12:14:51 PM :Debug: Time:6.858s. 0x0 
+9/29/25, 12:14:51 PM :Debug: Time:6.858s. 
+
+9/29/25, 12:14:51 PM :Debug: Time:6.858s.   .  
+9/29/25, 12:14:52 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600
+9/29/25, 12:14:52 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x53                                                                   S
+9/29/25, 12:14:53 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600
+9/29/25, 12:14:53 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x0D                                                                   .
+9/29/25, 12:14:53 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600, completed this port query
+9/29/25, 12:14:53 PM :Info: Timeout on: RS232: Port:/dev/ttyS0, Baud:9600
+9/29/25, 12:14:53 PM :Info: no Controller found on RS232: Port:/dev/ttyS0, Baud:9600
+Saved user properties successfully
+9/29/25, 12:14:53 PM :Debug: set baud to 115200
+Saved user properties successfully
+9/29/25, 12:14:54 PM :Info: Setting connection to: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/29/25, 12:14:54 PM :Debug: !!!!!! Time to Connect = 3
+9/29/25, 12:14:55 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:115200 Command: x51                                                                   Q
+9/29/25, 12:14:56 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/29/25, 12:14:56 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:115200 Command: x53                                                                   S
+9/29/25, 12:14:56 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/29/25, 12:14:56 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:115200 Command: x0D                                                                   .
+9/29/25, 12:14:57 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:115200, completed this port query
+9/29/25, 12:14:57 PM :Info: Timeout on: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/29/25, 12:14:57 PM :Info: no Controller found on RS232: Port:/dev/ttyUSB0, Baud:115200
+Saved user properties successfully
+9/29/25, 12:14:57 PM :Debug: set baud to 9600
+Saved user properties successfully
+9/29/25, 12:14:57 PM :Info: Setting connection to: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/29/25, 12:14:57 PM :Debug: !!!!!! Time to Connect = 4
+9/29/25, 12:14:59 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:9600 Command: x51                                                                   Q
+9/29/25, 12:14:59 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/29/25, 12:14:59 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:9600 Command: x53                                                                   S
+9/29/25, 12:15:00 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/29/25, 12:15:00 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:9600 Command: x0D                                                                   .
+9/29/25, 12:15:00 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:9600, completed this port query
+9/29/25, 12:15:00 PM :Info: Timeout on: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/29/25, 12:15:00 PM :Info: no Controller found on RS232: Port:/dev/ttyUSB0, Baud:9600
+Saved user properties successfully
+9/29/25, 12:15:01 PM :Debug: set baud to 115200
+9/29/25, 12:15:01 PM :Debug: set baud to 9600
+Saved user properties successfully
+9/29/25, 12:15:03 PM :Info: Setting connection to: 192.168.1.80:2000
+9/29/25, 12:15:03 PM :Debug: Opening Connection to TCP Device: 192.168.1.80:2000
+9/29/25, 12:15:05 PM :Info: 192.168.1.80:2000 Controller not found
+Saved user properties successfully
+Saved user properties successfully
+9/29/25, 12:15:05 PM :Info: Setting connection to: 192.168.1.81:2000
+9/29/25, 12:15:05 PM :Debug: Opening Connection to TCP Device: 192.168.1.81:2000
+9/29/25, 12:15:07 PM :Info: 192.168.1.81:2000 Controller not found
+Saved user properties successfully
+9/29/25, 12:15:09 PM :Debug: Device not found
+9/29/25, 12:15:09 PM :Debug: goOffline Starting, Time:0
+9/29/25, 12:15:09 PM :Info: Deactivated Turbo Baud, goOffline
+9/29/25, 12:15:09 PM :Debug: goOffline about to stopProcessing, Time:1
+9/29/25, 12:15:09 PM :Debug: goOffline closed port, Time:1
+9/29/25, 12:15:09 PM :Debug: CheckThread exiting
+9/29/25, 12:15:09 PM :Debug: goOffline comm thread stopped, Time:502
+9/29/25, 12:15:09 PM :Debug: No Remaining Queue Write instructions
+Sep 29, 2025 12:25:22 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 0 (All:1)
+9/29/25, 12:25:22 PM :Debug: Created CheckThread
+Saved user properties successfully
+9/29/25, 12:25:22 PM :Info: Setting connection to: USB D2XX, Serial #Auto @ 115200 Baud
+Sep 29, 2025 12:25:22 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 1 (All:1)
+9/29/25, 12:25:22 PM :Debug: Opening Connection to FTDI Device: USB D2XX, Serial # @ 115200 Baud
+Device: FTDevice{devDescription=, devSerialNumber=}
+Device Type: DEVICE_UNKNOWN
+Device ID: 0
+Device Location ID: 0
+Sep 29, 2025 12:25:22 PM aB.b f
+SEVERE: null
+com.ftdi.FTD2XXException: D2XX error, ftStatus:DEVICE_NOT_FOUND
+	at com.ftdi.FTDevice.ensureFTStatus(FTDevice.java:146)
+	at com.ftdi.FTDevice.open(FTDevice.java:327)
+	at aB.b.f(Unknown Source)
+	at A.t.h(Unknown Source)
+	at A.m.b(Unknown Source)
+	at A.m.a(Unknown Source)
+	at A.n.run(Unknown Source)
+
+9/29/25, 12:25:22 PM :Info: USB D2XX, Serial #Auto @ 115200 Baud Controller not found
+Saved user properties successfully
+Saved user properties successfully
+9/29/25, 12:25:22 PM :Info: Setting connection to: USB D2XX, Serial #Auto @ 9600 Baud
+Sep 29, 2025 12:25:22 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 1 (All:1)
+9/29/25, 12:25:22 PM :Debug: Opening Connection to FTDI Device: USB D2XX, Serial # @ 9600 Baud
+Device: FTDevice{devDescription=, devSerialNumber=}
+Device Type: DEVICE_UNKNOWN
+Device ID: 0
+Device Location ID: 0
+Sep 29, 2025 12:25:22 PM aB.b f
+SEVERE: null
+com.ftdi.FTD2XXException: D2XX error, ftStatus:DEVICE_NOT_FOUND
+	at com.ftdi.FTDevice.ensureFTStatus(FTDevice.java:146)
+	at com.ftdi.FTDevice.open(FTDevice.java:327)
+	at aB.b.f(Unknown Source)
+	at A.t.h(Unknown Source)
+	at A.m.b(Unknown Source)
+	at A.m.a(Unknown Source)
+	at A.n.run(Unknown Source)
+
+9/29/25, 12:25:22 PM :Info: USB D2XX, Serial #Auto @ 9600 Baud Controller not found
+Saved user properties successfully
+9/29/25, 12:25:23 PM :Debug: set baud to 115200
+Saved user properties successfully
+[Duplicate entry] received 2 times: Debug: set baud to 115200
+9/29/25, 12:25:24 PM :Info: Setting connection to: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 12:25:24 PM :Debug: !!!!!! Time to Connect = 1
+9/29/25, 12:25:25 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x51                                                                   Q
+9/29/25, 12:25:25 PM :Info: Comm Read Thread Change! Old Thread:null, new Thread:check
+
+9/29/25, 12:25:25 PM :Debug: Purged 1 orphaned bytes:
+9/29/25, 12:25:25 PM :Debug: Time:3.289s. 0x0 
+9/29/25, 12:25:25 PM :Debug: Time:3.289s. 
+
+9/29/25, 12:25:25 PM :Debug: Time:3.289s.   .  
+9/29/25, 12:25:26 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 12:25:26 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x53                                                                   S
+9/29/25, 12:25:26 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 12:25:26 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x0D                                                                   .
+9/29/25, 12:25:27 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200, completed this port query
+9/29/25, 12:25:27 PM :Info: Timeout on: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 12:25:27 PM :Info: no Controller found on RS232: Port:/dev/ttyS0, Baud:115200
+Saved user properties successfully
+9/29/25, 12:25:27 PM :Debug: set baud to 9600
+Saved user properties successfully
+9/29/25, 12:25:27 PM :Info: Setting connection to: RS232: Port:/dev/ttyS0, Baud:9600
+9/29/25, 12:25:27 PM :Debug: !!!!!! Time to Connect = 1
+9/29/25, 12:25:29 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x51                                                                   Q
+
+9/29/25, 12:25:29 PM :Debug: Purged 1 orphaned bytes:
+9/29/25, 12:25:29 PM :Debug: Time:6.846s. 0x0 
+9/29/25, 12:25:29 PM :Debug: Time:6.846s. 
+
+9/29/25, 12:25:29 PM :Debug: Time:6.846s.   .  
+9/29/25, 12:25:29 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600
+9/29/25, 12:25:29 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x53                                                                   S
+9/29/25, 12:25:30 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600
+9/29/25, 12:25:30 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x0D                                                                   .
+9/29/25, 12:25:30 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600, completed this port query
+9/29/25, 12:25:30 PM :Info: Timeout on: RS232: Port:/dev/ttyS0, Baud:9600
+9/29/25, 12:25:30 PM :Info: no Controller found on RS232: Port:/dev/ttyS0, Baud:9600
+Saved user properties successfully
+9/29/25, 12:25:30 PM :Debug: set baud to 115200
+Saved user properties successfully
+9/29/25, 12:25:31 PM :Info: Setting connection to: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/29/25, 12:25:31 PM :Debug: !!!!!! Time to Connect = 3
+9/29/25, 12:25:32 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:115200 Command: x51                                                                   Q
+9/29/25, 12:25:33 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/29/25, 12:25:33 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:115200 Command: x53                                                                   S
+9/29/25, 12:25:33 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/29/25, 12:25:33 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:115200 Command: x0D                                                                   .
+9/29/25, 12:25:34 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:115200, completed this port query
+9/29/25, 12:25:34 PM :Info: Timeout on: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/29/25, 12:25:34 PM :Info: no Controller found on RS232: Port:/dev/ttyUSB0, Baud:115200
+Saved user properties successfully
+9/29/25, 12:25:34 PM :Debug: set baud to 9600
+Saved user properties successfully
+9/29/25, 12:25:34 PM :Info: Setting connection to: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/29/25, 12:25:34 PM :Debug: !!!!!! Time to Connect = 3
+9/29/25, 12:25:36 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:9600 Command: x51                                                                   Q
+9/29/25, 12:25:36 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/29/25, 12:25:36 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:9600 Command: x53                                                                   S
+9/29/25, 12:25:37 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/29/25, 12:25:37 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:9600 Command: x0D                                                                   .
+9/29/25, 12:25:38 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:9600, completed this port query
+9/29/25, 12:25:38 PM :Info: Timeout on: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/29/25, 12:25:38 PM :Info: no Controller found on RS232: Port:/dev/ttyUSB0, Baud:9600
+Saved user properties successfully
+9/29/25, 12:25:39 PM :Debug: set baud to 115200
+9/29/25, 12:25:39 PM :Debug: set baud to 9600
+Saved user properties successfully
+9/29/25, 12:25:40 PM :Info: Setting connection to: 192.168.1.80:2000
+9/29/25, 12:25:40 PM :Debug: Opening Connection to TCP Device: 192.168.1.80:2000
+9/29/25, 12:25:42 PM :Info: 192.168.1.80:2000 Controller not found
+Saved user properties successfully
+Saved user properties successfully
+9/29/25, 12:25:42 PM :Info: Setting connection to: 192.168.1.81:2000
+9/29/25, 12:25:42 PM :Debug: Opening Connection to TCP Device: 192.168.1.81:2000
+9/29/25, 12:25:44 PM :Info: 192.168.1.81:2000 Controller not found
+Saved user properties successfully
+9/29/25, 12:25:46 PM :Debug: Device not found
+9/29/25, 12:25:46 PM :Debug: goOffline Starting, Time:0
+9/29/25, 12:25:46 PM :Info: Deactivated Turbo Baud, goOffline
+9/29/25, 12:25:46 PM :Debug: goOffline about to stopProcessing, Time:1
+9/29/25, 12:25:46 PM :Debug: goOffline closed port, Time:1
+9/29/25, 12:25:46 PM :Debug: CheckThread exiting
+9/29/25, 12:25:47 PM :Debug: goOffline comm thread stopped, Time:502
+9/29/25, 12:25:47 PM :Debug: No Remaining Queue Write instructions
+9/29/25, 12:25:51 PM :Debug: Cancel Wizard
+9/29/25, 12:28:36 PM :Debug: set baud to 115200
+Sep 29, 2025 12:28:38 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 0 (All:1)
+[Duplicate entry] received 2 times: Debug: set baud to 115200
+9/29/25, 12:28:38 PM :Debug: Created CheckThread
+Saved user properties successfully
+9/29/25, 12:28:38 PM :Info: Setting connection to: USB D2XX, Serial #Auto @ 115200 Baud
+Sep 29, 2025 12:28:38 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 1 (All:1)
+9/29/25, 12:28:38 PM :Debug: Opening Connection to FTDI Device: USB D2XX, Serial # @ 115200 Baud
+Device: FTDevice{devDescription=, devSerialNumber=}
+Device Type: DEVICE_UNKNOWN
+Device ID: 0
+Device Location ID: 0
+Sep 29, 2025 12:28:38 PM aB.b f
+SEVERE: null
+com.ftdi.FTD2XXException: D2XX error, ftStatus:DEVICE_NOT_FOUND
+	at com.ftdi.FTDevice.ensureFTStatus(FTDevice.java:146)
+	at com.ftdi.FTDevice.open(FTDevice.java:327)
+	at aB.b.f(Unknown Source)
+	at A.t.h(Unknown Source)
+	at A.m.b(Unknown Source)
+	at A.m.a(Unknown Source)
+	at A.n.run(Unknown Source)
+
+9/29/25, 12:28:38 PM :Info: USB D2XX, Serial #Auto @ 115200 Baud Controller not found
+Saved user properties successfully
+Saved user properties successfully
+9/29/25, 12:28:38 PM :Info: Setting connection to: USB D2XX, Serial #Auto @ 9600 Baud
+Sep 29, 2025 12:28:38 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 1 (All:1)
+9/29/25, 12:28:38 PM :Debug: Opening Connection to FTDI Device: USB D2XX, Serial # @ 9600 Baud
+Device: FTDevice{devDescription=, devSerialNumber=}
+Device Type: DEVICE_UNKNOWN
+Device ID: 0
+Device Location ID: 0
+Sep 29, 2025 12:28:38 PM aB.b f
+SEVERE: null
+com.ftdi.FTD2XXException: D2XX error, ftStatus:DEVICE_NOT_FOUND
+	at com.ftdi.FTDevice.ensureFTStatus(FTDevice.java:146)
+	at com.ftdi.FTDevice.open(FTDevice.java:327)
+	at aB.b.f(Unknown Source)
+	at A.t.h(Unknown Source)
+	at A.m.b(Unknown Source)
+	at A.m.a(Unknown Source)
+	at A.n.run(Unknown Source)
+
+9/29/25, 12:28:38 PM :Info: USB D2XX, Serial #Auto @ 9600 Baud Controller not found
+Saved user properties successfully
+9/29/25, 12:28:39 PM :Debug: set baud to 115200
+Saved user properties successfully
+[Duplicate entry] received 2 times: Debug: set baud to 115200
+9/29/25, 12:28:40 PM :Info: Setting connection to: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 12:28:40 PM :Debug: !!!!!! Time to Connect = 1
+9/29/25, 12:28:41 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x51                                                                   Q
+9/29/25, 12:28:41 PM :Info: Comm Read Thread Change! Old Thread:null, new Thread:check
+9/29/25, 12:28:42 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 12:28:42 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x53                                                                   S
+9/29/25, 12:28:42 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 12:28:42 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x0D                                                                   .
+9/29/25, 12:28:43 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200, completed this port query
+9/29/25, 12:28:43 PM :Info: Timeout on: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 12:28:43 PM :Info: no Controller found on RS232: Port:/dev/ttyS0, Baud:115200
+Saved user properties successfully
+9/29/25, 12:28:43 PM :Debug: set baud to 9600
+Saved user properties successfully
+9/29/25, 12:28:43 PM :Info: Setting connection to: RS232: Port:/dev/ttyS0, Baud:9600
+9/29/25, 12:28:43 PM :Debug: !!!!!! Time to Connect = 1
+9/29/25, 12:28:45 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x51                                                                   Q
+
+9/29/25, 12:28:45 PM :Debug: Purged 1 orphaned bytes:
+9/29/25, 12:28:45 PM :Debug: Time:6.847s. 0x0 
+9/29/25, 12:28:45 PM :Debug: Time:6.847s. 
+
+9/29/25, 12:28:45 PM :Debug: Time:6.848s.   .  
+9/29/25, 12:28:45 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600
+9/29/25, 12:28:45 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x53                                                                   S
+9/29/25, 12:28:46 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600
+9/29/25, 12:28:46 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x0D                                                                   .
+9/29/25, 12:28:46 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600, completed this port query
+9/29/25, 12:28:46 PM :Info: Timeout on: RS232: Port:/dev/ttyS0, Baud:9600
+9/29/25, 12:28:46 PM :Info: no Controller found on RS232: Port:/dev/ttyS0, Baud:9600
+Saved user properties successfully
+9/29/25, 12:28:46 PM :Debug: set baud to 115200
+Saved user properties successfully
+9/29/25, 12:28:47 PM :Info: Setting connection to: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/29/25, 12:28:47 PM :Debug: !!!!!! Time to Connect = 3
+9/29/25, 12:28:48 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:115200 Command: x51                                                                   Q
+9/29/25, 12:28:49 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/29/25, 12:28:49 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:115200 Command: x53                                                                   S
+9/29/25, 12:28:49 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/29/25, 12:28:49 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:115200 Command: x0D                                                                   .
+9/29/25, 12:28:50 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:115200, completed this port query
+9/29/25, 12:28:50 PM :Info: Timeout on: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/29/25, 12:28:50 PM :Info: no Controller found on RS232: Port:/dev/ttyUSB0, Baud:115200
+Saved user properties successfully
+9/29/25, 12:28:50 PM :Debug: set baud to 9600
+Saved user properties successfully
+9/29/25, 12:28:50 PM :Info: Setting connection to: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/29/25, 12:28:50 PM :Debug: !!!!!! Time to Connect = 4
+9/29/25, 12:28:52 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:9600 Command: x51                                                                   Q
+9/29/25, 12:28:52 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/29/25, 12:28:52 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:9600 Command: x53                                                                   S
+9/29/25, 12:28:53 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/29/25, 12:28:53 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:9600 Command: x0D                                                                   .
+9/29/25, 12:28:54 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:9600, completed this port query
+9/29/25, 12:28:54 PM :Info: Timeout on: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/29/25, 12:28:54 PM :Info: no Controller found on RS232: Port:/dev/ttyUSB0, Baud:9600
+Saved user properties successfully
+9/29/25, 12:28:55 PM :Debug: set baud to 115200
+9/29/25, 12:28:55 PM :Debug: set baud to 9600
+Saved user properties successfully
+9/29/25, 12:28:56 PM :Info: Setting connection to: 192.168.1.80:2000
+9/29/25, 12:28:56 PM :Debug: Opening Connection to TCP Device: 192.168.1.80:2000
+9/29/25, 12:28:58 PM :Info: 192.168.1.80:2000 Controller not found
+Saved user properties successfully
+Saved user properties successfully
+9/29/25, 12:28:58 PM :Info: Setting connection to: 192.168.1.81:2000
+9/29/25, 12:28:58 PM :Debug: Opening Connection to TCP Device: 192.168.1.81:2000
+9/29/25, 12:29:00 PM :Info: 192.168.1.81:2000 Controller not found
+Saved user properties successfully
+9/29/25, 12:29:02 PM :Debug: Device not found
+9/29/25, 12:29:02 PM :Debug: goOffline Starting, Time:0
+9/29/25, 12:29:02 PM :Info: Deactivated Turbo Baud, goOffline
+9/29/25, 12:29:02 PM :Debug: goOffline about to stopProcessing, Time:1
+9/29/25, 12:29:02 PM :Debug: goOffline closed port, Time:1
+9/29/25, 12:29:02 PM :Debug: CheckThread exiting
+9/29/25, 12:29:03 PM :Debug: goOffline comm thread stopped, Time:502
+9/29/25, 12:29:03 PM :Debug: No Remaining Queue Write instructions
+9/29/25, 12:29:45 PM :Debug: Cancel Wizard
+9/29/25, 12:30:06 PM :Debug: set baud to 9600
+[Duplicate entry] received 2 times: Debug: set baud to 9600
+9/29/25, 12:37:14 PM :Debug: HttpService Search Failed
+[Duplicate entry] received 4 times: Debug: HttpService Search Failed
+9/29/25, 1:02:38 PM :Debug: set baud to 9600
+9/29/25, 1:08:06 PM :Debug: HttpService Search Failed
+[Duplicate entry] received 22 times: Debug: HttpService Search Failed
+9/29/25, 1:51:14 PM :Debug: set baud to 9600
+Sep 29, 2025 1:51:32 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 0 (All:1)
+[Duplicate entry] received 3 times: Debug: set baud to 9600
+9/29/25, 1:51:32 PM :Debug: Created CheckThread
+Saved user properties successfully
+9/29/25, 1:51:33 PM :Info: Setting connection to: USB D2XX, Serial #Auto @ 115200 Baud
+Sep 29, 2025 1:51:33 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 1 (All:1)
+9/29/25, 1:51:33 PM :Debug: Opening Connection to FTDI Device: USB D2XX, Serial # @ 115200 Baud
+Device: FTDevice{devDescription=, devSerialNumber=}
+Device Type: DEVICE_UNKNOWN
+Device ID: 0
+Device Location ID: 0
+Sep 29, 2025 1:51:33 PM aB.b f
+SEVERE: null
+com.ftdi.FTD2XXException: D2XX error, ftStatus:DEVICE_NOT_FOUND
+	at com.ftdi.FTDevice.ensureFTStatus(FTDevice.java:146)
+	at com.ftdi.FTDevice.open(FTDevice.java:327)
+	at aB.b.f(Unknown Source)
+	at A.t.h(Unknown Source)
+	at A.m.b(Unknown Source)
+	at A.m.a(Unknown Source)
+	at A.n.run(Unknown Source)
+
+9/29/25, 1:51:33 PM :Info: USB D2XX, Serial #Auto @ 115200 Baud Controller not found
+Saved user properties successfully
+Saved user properties successfully
+9/29/25, 1:51:33 PM :Info: Setting connection to: USB D2XX, Serial #Auto @ 9600 Baud
+Sep 29, 2025 1:51:33 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 1 (All:1)
+9/29/25, 1:51:33 PM :Debug: Opening Connection to FTDI Device: USB D2XX, Serial # @ 9600 Baud
+Device: FTDevice{devDescription=, devSerialNumber=}
+Device Type: DEVICE_UNKNOWN
+Device ID: 0
+Device Location ID: 0
+Sep 29, 2025 1:51:33 PM aB.b f
+SEVERE: null
+com.ftdi.FTD2XXException: D2XX error, ftStatus:DEVICE_NOT_FOUND
+	at com.ftdi.FTDevice.ensureFTStatus(FTDevice.java:146)
+	at com.ftdi.FTDevice.open(FTDevice.java:327)
+	at aB.b.f(Unknown Source)
+	at A.t.h(Unknown Source)
+	at A.m.b(Unknown Source)
+	at A.m.a(Unknown Source)
+	at A.n.run(Unknown Source)
+
+9/29/25, 1:51:33 PM :Info: USB D2XX, Serial #Auto @ 9600 Baud Controller not found
+Saved user properties successfully
+9/29/25, 1:51:34 PM :Debug: set baud to 115200
+Saved user properties successfully
+[Duplicate entry] received 2 times: Debug: set baud to 115200
+9/29/25, 1:51:34 PM :Info: Setting connection to: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 1:51:34 PM :Debug: !!!!!! Time to Connect = 2
+9/29/25, 1:51:36 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x51                                                                   Q
+9/29/25, 1:51:36 PM :Info: Comm Read Thread Change! Old Thread:null, new Thread:check
+9/29/25, 1:51:36 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 1:51:36 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x53                                                                   S
+9/29/25, 1:51:37 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 1:51:37 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x0D                                                                   .
+9/29/25, 1:51:37 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200, completed this port query
+9/29/25, 1:51:37 PM :Info: Timeout on: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 1:51:37 PM :Info: no Controller found on RS232: Port:/dev/ttyS0, Baud:115200
+Saved user properties successfully
+9/29/25, 1:51:37 PM :Debug: set baud to 9600
+Saved user properties successfully
+9/29/25, 1:51:38 PM :Info: Setting connection to: RS232: Port:/dev/ttyS0, Baud:9600
+9/29/25, 1:51:38 PM :Debug: !!!!!! Time to Connect = 2
+9/29/25, 1:51:39 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x51                                                                   Q
+
+9/29/25, 1:51:39 PM :Debug: Purged 1 orphaned bytes:
+9/29/25, 1:51:39 PM :Debug: Time:6.847s. 0x0 
+9/29/25, 1:51:39 PM :Debug: Time:6.847s. 
+
+9/29/25, 1:51:39 PM :Debug: Time:6.847s.   .  
+9/29/25, 1:51:40 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600
+9/29/25, 1:51:40 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x53                                                                   S
+9/29/25, 1:51:40 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600
+9/29/25, 1:51:40 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x0D                                                                   .
+9/29/25, 1:51:41 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600, completed this port query
+9/29/25, 1:51:41 PM :Info: Timeout on: RS232: Port:/dev/ttyS0, Baud:9600
+9/29/25, 1:51:41 PM :Info: no Controller found on RS232: Port:/dev/ttyS0, Baud:9600
+Saved user properties successfully
+9/29/25, 1:51:41 PM :Debug: set baud to 115200
+Saved user properties successfully
+9/29/25, 1:51:41 PM :Info: Setting connection to: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/29/25, 1:51:41 PM :Debug: !!!!!! Time to Connect = 3
+9/29/25, 1:51:43 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:115200 Command: x51                                                                   Q
+9/29/25, 1:51:43 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/29/25, 1:51:43 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:115200 Command: x53                                                                   S
+9/29/25, 1:51:44 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/29/25, 1:51:44 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:115200 Command: x0D                                                                   .
+9/29/25, 1:51:45 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:115200, completed this port query
+9/29/25, 1:51:45 PM :Info: Timeout on: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/29/25, 1:51:45 PM :Info: no Controller found on RS232: Port:/dev/ttyUSB0, Baud:115200
+Saved user properties successfully
+9/29/25, 1:51:45 PM :Debug: set baud to 9600
+Saved user properties successfully
+9/29/25, 1:51:45 PM :Info: Setting connection to: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/29/25, 1:51:45 PM :Debug: !!!!!! Time to Connect = 3
+9/29/25, 1:51:45 PM :Debug: Cancel Wizard
+9/29/25, 1:51:46 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:9600 Command: x51                                                                   Q
+9/29/25, 1:51:47 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/29/25, 1:51:47 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:9600 Command: x53                                                                   S
+9/29/25, 1:51:48 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/29/25, 1:51:48 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:9600 Command: x0D                                                                   .
+9/29/25, 1:51:48 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:9600, completed this port query
+9/29/25, 1:51:48 PM :Info: Timeout on: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/29/25, 1:51:48 PM :Info: no Controller found on RS232: Port:/dev/ttyUSB0, Baud:9600
+Saved user properties successfully
+9/29/25, 1:51:49 PM :Debug: set baud to 115200
+9/29/25, 1:51:49 PM :Debug: set baud to 9600
+Saved user properties successfully
+9/29/25, 1:51:50 PM :Info: Setting connection to: 192.168.1.80:2000
+9/29/25, 1:51:50 PM :Debug: Opening Connection to TCP Device: 192.168.1.80:2000
+9/29/25, 1:51:51 PM :Debug: Time to load ini list: 8ms.
+9/29/25, 1:51:52 PM :Info: 192.168.1.80:2000 Controller not found
+Saved user properties successfully
+Saved user properties successfully
+9/29/25, 1:51:53 PM :Info: Setting connection to: 192.168.1.81:2000
+9/29/25, 1:51:53 PM :Debug: Opening Connection to TCP Device: 192.168.1.81:2000
+9/29/25, 1:51:55 PM :Info: 192.168.1.81:2000 Controller not found
+Saved user properties successfully
+Sep 29, 2025 1:51:55 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 0 (All:1)
+9/29/25, 1:51:56 PM :Debug: Device not found
+[Duplicate entry] received 3 times: Debug: Device not found
+9/29/25, 1:51:56 PM :Debug: goOffline Starting, Time:0
+9/29/25, 1:51:56 PM :Info: Deactivated Turbo Baud, goOffline
+9/29/25, 1:51:56 PM :Debug: goOffline about to stopProcessing, Time:0
+9/29/25, 1:51:56 PM :Debug: goOffline closed port, Time:0
+9/29/25, 1:51:56 PM :Debug: CheckThread exiting
+9/29/25, 1:51:56 PM :Debug: goOffline comm thread stopped, Time:500
+9/29/25, 1:51:56 PM :Debug: No Remaining Queue Write instructions
+9/29/25, 1:51:56 PM :Debug: SearchThread already exists, killed and restarted
+9/29/25, 1:51:56 PM :Debug: Created CheckThread
+Saved user properties successfully
+9/29/25, 1:51:56 PM :Info: Setting connection to: USB D2XX, Serial #Auto @ 115200 Baud
+Sep 29, 2025 1:51:56 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 1 (All:1)
+9/29/25, 1:51:56 PM :Debug: Opening Connection to FTDI Device: USB D2XX, Serial # @ 115200 Baud
+Device: FTDevice{devDescription=, devSerialNumber=}
+Device Type: DEVICE_UNKNOWN
+Device ID: 0
+Device Location ID: 0
+Sep 29, 2025 1:51:56 PM aB.b f
+SEVERE: null
+com.ftdi.FTD2XXException: D2XX error, ftStatus:DEVICE_NOT_FOUND
+	at com.ftdi.FTDevice.ensureFTStatus(FTDevice.java:146)
+	at com.ftdi.FTDevice.open(FTDevice.java:327)
+	at aB.b.f(Unknown Source)
+	at A.t.h(Unknown Source)
+	at A.m.b(Unknown Source)
+	at A.m.a(Unknown Source)
+	at A.n.run(Unknown Source)
+
+9/29/25, 1:51:56 PM :Info: USB D2XX, Serial #Auto @ 115200 Baud Controller not found
+Saved user properties successfully
+Saved user properties successfully
+9/29/25, 1:51:57 PM :Info: Setting connection to: USB D2XX, Serial #Auto @ 9600 Baud
+Sep 29, 2025 1:51:57 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 1 (All:1)
+9/29/25, 1:51:57 PM :Debug: Opening Connection to FTDI Device: USB D2XX, Serial # @ 9600 Baud
+Device: FTDevice{devDescription=, devSerialNumber=}
+Device Type: DEVICE_UNKNOWN
+Device ID: 0
+Device Location ID: 0
+Sep 29, 2025 1:51:57 PM aB.b f
+SEVERE: null
+com.ftdi.FTD2XXException: D2XX error, ftStatus:DEVICE_NOT_FOUND
+	at com.ftdi.FTDevice.ensureFTStatus(FTDevice.java:146)
+	at com.ftdi.FTDevice.open(FTDevice.java:327)
+	at aB.b.f(Unknown Source)
+	at A.t.h(Unknown Source)
+	at A.m.b(Unknown Source)
+	at A.m.a(Unknown Source)
+	at A.n.run(Unknown Source)
+
+9/29/25, 1:51:57 PM :Info: USB D2XX, Serial #Auto @ 9600 Baud Controller not found
+Saved user properties successfully
+9/29/25, 1:51:58 PM :Debug: set baud to 115200
+Saved user properties successfully
+[Duplicate entry] received 2 times: Debug: set baud to 115200
+9/29/25, 1:51:58 PM :Info: Setting connection to: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 1:51:58 PM :Debug: !!!!!! Time to Connect = 1
+9/29/25, 1:51:59 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x51                                                                   Q
+9/29/25, 1:51:59 PM :Info: Comm Read Thread Change! Old Thread:null, new Thread:check
+
+9/29/25, 1:51:59 PM :Debug: Purged 1 orphaned bytes:
+9/29/25, 1:51:59 PM :Debug: Time:3.239s. 0x0 
+9/29/25, 1:51:59 PM :Debug: Time:3.239s. 
+
+9/29/25, 1:51:59 PM :Debug: Time:3.239s.   .  
+9/29/25, 1:52:00 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 1:52:00 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x53                                                                   S
+9/29/25, 1:52:01 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 1:52:01 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x0D                                                                   .
+9/29/25, 1:52:01 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200, completed this port query
+9/29/25, 1:52:01 PM :Info: Timeout on: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 1:52:01 PM :Info: no Controller found on RS232: Port:/dev/ttyS0, Baud:115200
+Saved user properties successfully
+9/29/25, 1:52:01 PM :Debug: set baud to 9600
+9/29/25, 1:52:02 PM :Debug: Device not found
+[Duplicate entry] received 2 times: Debug: Device not found
+9/29/25, 1:52:02 PM :Debug: goOffline Starting, Time:0
+9/29/25, 1:52:02 PM :Info: Deactivated Turbo Baud, goOffline
+9/29/25, 1:52:02 PM :Debug: goOffline about to stopProcessing, Time:0
+9/29/25, 1:52:02 PM :Debug: goOffline closed port, Time:0
+9/29/25, 1:52:02 PM :Debug: CheckThread exiting
+9/29/25, 1:52:03 PM :Debug: goOffline comm thread stopped, Time:502
+9/29/25, 1:52:03 PM :Debug: No Remaining Queue Write instructions
+Sep 29, 2025 1:52:18 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 0 (All:1)
+9/29/25, 1:52:18 PM :Debug: Created CheckThread
+Saved user properties successfully
+9/29/25, 1:52:18 PM :Info: Setting connection to: USB D2XX, Serial #Auto @ 115200 Baud
+Sep 29, 2025 1:52:18 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 1 (All:1)
+9/29/25, 1:52:18 PM :Debug: Opening Connection to FTDI Device: USB D2XX, Serial # @ 115200 Baud
+Device: FTDevice{devDescription=, devSerialNumber=}
+Device Type: DEVICE_UNKNOWN
+Device ID: 0
+Device Location ID: 0
+Sep 29, 2025 1:52:18 PM aB.b f
+SEVERE: null
+com.ftdi.FTD2XXException: D2XX error, ftStatus:DEVICE_NOT_FOUND
+	at com.ftdi.FTDevice.ensureFTStatus(FTDevice.java:146)
+	at com.ftdi.FTDevice.open(FTDevice.java:327)
+	at aB.b.f(Unknown Source)
+	at A.t.h(Unknown Source)
+	at A.m.b(Unknown Source)
+	at A.m.a(Unknown Source)
+	at A.n.run(Unknown Source)
+
+9/29/25, 1:52:18 PM :Info: USB D2XX, Serial #Auto @ 115200 Baud Controller not found
+Saved user properties successfully
+Saved user properties successfully
+9/29/25, 1:52:18 PM :Info: Setting connection to: USB D2XX, Serial #Auto @ 9600 Baud
+Sep 29, 2025 1:52:18 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 1 (All:1)
+9/29/25, 1:52:18 PM :Debug: Opening Connection to FTDI Device: USB D2XX, Serial # @ 9600 Baud
+Device: FTDevice{devDescription=, devSerialNumber=}
+Device Type: DEVICE_UNKNOWN
+Device ID: 0
+Device Location ID: 0
+Sep 29, 2025 1:52:18 PM aB.b f
+SEVERE: null
+com.ftdi.FTD2XXException: D2XX error, ftStatus:DEVICE_NOT_FOUND
+	at com.ftdi.FTDevice.ensureFTStatus(FTDevice.java:146)
+	at com.ftdi.FTDevice.open(FTDevice.java:327)
+	at aB.b.f(Unknown Source)
+	at A.t.h(Unknown Source)
+	at A.m.b(Unknown Source)
+	at A.m.a(Unknown Source)
+	at A.n.run(Unknown Source)
+
+9/29/25, 1:52:18 PM :Info: USB D2XX, Serial #Auto @ 9600 Baud Controller not found
+Saved user properties successfully
+9/29/25, 1:52:19 PM :Debug: set baud to 115200
+Saved user properties successfully
+[Duplicate entry] received 2 times: Debug: set baud to 115200
+9/29/25, 1:52:19 PM :Info: Setting connection to: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 1:52:19 PM :Debug: !!!!!! Time to Connect = 1
+9/29/25, 1:52:21 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x51                                                                   Q
+9/29/25, 1:52:21 PM :Info: Comm Read Thread Change! Old Thread:null, new Thread:check
+
+9/29/25, 1:52:21 PM :Debug: Purged 1 orphaned bytes:
+9/29/25, 1:52:21 PM :Debug: Time:3.231s. 0x0 
+9/29/25, 1:52:21 PM :Debug: Time:3.231s. 
+
+9/29/25, 1:52:21 PM :Debug: Time:3.232s.   .  
+9/29/25, 1:52:21 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 1:52:21 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x53                                                                   S
+9/29/25, 1:52:22 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 1:52:22 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x0D                                                                   .
+9/29/25, 1:52:23 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200, completed this port query
+9/29/25, 1:52:23 PM :Info: Timeout on: RS232: Port:/dev/ttyS0, Baud:115200
+9/29/25, 1:52:23 PM :Info: no Controller found on RS232: Port:/dev/ttyS0, Baud:115200
+Saved user properties successfully
+9/29/25, 1:52:23 PM :Debug: set baud to 9600
+Saved user properties successfully
+9/29/25, 1:52:23 PM :Info: Setting connection to: RS232: Port:/dev/ttyS0, Baud:9600
+9/29/25, 1:52:23 PM :Debug: !!!!!! Time to Connect = 1
+9/29/25, 1:52:24 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x51                                                                   Q
+
+9/29/25, 1:52:24 PM :Debug: Purged 1 orphaned bytes:
+9/29/25, 1:52:24 PM :Debug: Time:6.787s. 0x0 
+9/29/25, 1:52:24 PM :Debug: Time:6.787s. 
+
+9/29/25, 1:52:24 PM :Debug: Time:6.787s.   .  
+9/29/25, 1:52:25 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600
+9/29/25, 1:52:25 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x53                                                                   S
+9/29/25, 1:52:26 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600
+9/29/25, 1:52:26 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x0D                                                                   .
+9/29/25, 1:52:26 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600, completed this port query
+9/29/25, 1:52:26 PM :Info: Timeout on: RS232: Port:/dev/ttyS0, Baud:9600
+9/29/25, 1:52:26 PM :Info: no Controller found on RS232: Port:/dev/ttyS0, Baud:9600
+Saved user properties successfully
+9/29/25, 1:52:26 PM :Debug: set baud to 115200
+Saved user properties successfully
+9/29/25, 1:52:26 PM :Info: Setting connection to: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/29/25, 1:52:26 PM :Debug: !!!!!! Time to Connect = 3
+9/29/25, 1:52:28 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:115200 Command: x51                                                                   Q
+9/29/25, 1:52:29 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/29/25, 1:52:29 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:115200 Command: x53                                                                   S
+9/29/25, 1:52:29 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/29/25, 1:52:29 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:115200 Command: x0D                                                                   .
+9/29/25, 1:52:30 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:115200, completed this port query
+9/29/25, 1:52:30 PM :Info: Timeout on: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/29/25, 1:52:30 PM :Info: no Controller found on RS232: Port:/dev/ttyUSB0, Baud:115200
+Saved user properties successfully
+9/29/25, 1:52:30 PM :Debug: set baud to 9600
+Saved user properties successfully
+9/29/25, 1:52:30 PM :Info: Setting connection to: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/29/25, 1:52:30 PM :Debug: !!!!!! Time to Connect = 3
+9/29/25, 1:52:32 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:9600 Command: x51                                                                   Q
+9/29/25, 1:52:32 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/29/25, 1:52:32 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:9600 Command: x53                                                                   S
+9/29/25, 1:52:33 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/29/25, 1:52:33 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:9600 Command: x0D                                                                   .
+9/29/25, 1:52:33 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:9600, completed this port query
+9/29/25, 1:52:33 PM :Info: Timeout on: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/29/25, 1:52:33 PM :Info: no Controller found on RS232: Port:/dev/ttyUSB0, Baud:9600
+Saved user properties successfully
+9/29/25, 1:52:34 PM :Debug: set baud to 115200
+9/29/25, 1:52:34 PM :Debug: set baud to 9600
+Saved user properties successfully
+9/29/25, 1:52:36 PM :Info: Setting connection to: 192.168.1.80:2000
+9/29/25, 1:52:36 PM :Debug: Opening Connection to TCP Device: 192.168.1.80:2000
+9/29/25, 1:52:38 PM :Info: 192.168.1.80:2000 Controller not found
+Saved user properties successfully
+Saved user properties successfully
+9/29/25, 1:52:38 PM :Info: Setting connection to: 192.168.1.81:2000
+9/29/25, 1:52:38 PM :Debug: Opening Connection to TCP Device: 192.168.1.81:2000
+9/29/25, 1:52:40 PM :Info: 192.168.1.81:2000 Controller not found
+Saved user properties successfully
+9/29/25, 1:52:42 PM :Debug: Device not found
+[Duplicate entry] received 3 times: Debug: Device not found
+9/29/25, 1:52:42 PM :Debug: goOffline Starting, Time:0
+9/29/25, 1:52:42 PM :Info: Deactivated Turbo Baud, goOffline
+9/29/25, 1:52:42 PM :Debug: goOffline about to stopProcessing, Time:0
+9/29/25, 1:52:42 PM :Debug: goOffline closed port, Time:0
+9/29/25, 1:52:42 PM :Debug: CheckThread exiting
+9/29/25, 1:52:42 PM :Debug: goOffline comm thread stopped, Time:500
+9/29/25, 1:52:42 PM :Debug: No Remaining Queue Write instructions
+9/29/25, 2:11:00 PM :Debug: HttpService Search Failed
+[Duplicate entry] received 9 times: Debug: HttpService Search Failed
+9/29/25, 3:13:33 PM :Debug: HttpService Search Failed
+[Duplicate entry] received 12 times: Debug: HttpService Search Failed
+9/29/25, 4:48:12 PM :Debug: HttpService Search Failed
+[Duplicate entry] received 5 times: Debug: HttpService Search Failed
+9/29/25, 7:24:03 PM :Debug: HttpService Search Failed
+[Duplicate entry] received 6 times: Debug: HttpService Search Failed
+9/29/25, 7:55:08 PM :Debug: HttpService Search Failed
+[Duplicate entry] received 11 times: Debug: HttpService Search Failed
+9/29/25, 8:26:52 PM :Debug: HttpService Search Failed
+[Duplicate entry] received 10 times: Debug: HttpService Search Failed
+9/29/25, 9:29:02 PM :Debug: HttpService Search Failed
+[Duplicate entry] received 13 times: Debug: HttpService Search Failed
+9/29/25, 10:00:16 PM :Debug: HttpService Search Failed
+[Duplicate entry] received 27 times: Debug: HttpService Search Failed
+9/29/25, 11:34:17 PM :Debug: HttpService Search Failed
+[Duplicate entry] received 27 times: Debug: HttpService Search Failed
+9/30/25, 12:05:41 AM :Debug: HttpService Search Failed
+[Duplicate entry] received 10 times: Debug: HttpService Search Failed
+9/30/25, 4:57:14 PM :Debug: set baud to 9600
+[Duplicate entry] received 4 times: Debug: set baud to 9600
+9/30/25, 4:57:17 PM :Debug: HttpService Search Failed
+[Duplicate entry] received 2 times: Debug: HttpService Search Failed
+9/30/25, 4:57:54 PM :Debug: set baud to 9600
+[Duplicate entry] received 2 times: Debug: set baud to 9600
+9/30/25, 4:59:09 PM :Debug: HttpService Search Failed
+9/30/25, 4:59:36 PM :Debug: set baud to 9600
+Sep 30, 2025 5:00:00 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 0 (All:1)
+[Duplicate entry] received 2 times: Debug: set baud to 9600
+9/30/25, 5:00:00 PM :Debug: Created CheckThread
+Saved user properties successfully
+9/30/25, 5:00:00 PM :Info: Setting connection to: USB D2XX, Serial #Auto @ 115200 Baud
+Sep 30, 2025 5:00:00 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 1 (All:1)
+9/30/25, 5:00:00 PM :Debug: Opening Connection to FTDI Device: USB D2XX, Serial # @ 115200 Baud
+Device: FTDevice{devDescription=, devSerialNumber=}
+Device Type: DEVICE_UNKNOWN
+Device ID: 0
+Device Location ID: 0
+Sep 30, 2025 5:00:00 PM aB.b f
+SEVERE: null
+com.ftdi.FTD2XXException: D2XX error, ftStatus:DEVICE_NOT_FOUND
+	at com.ftdi.FTDevice.ensureFTStatus(FTDevice.java:146)
+	at com.ftdi.FTDevice.open(FTDevice.java:327)
+	at aB.b.f(Unknown Source)
+	at A.t.h(Unknown Source)
+	at A.m.b(Unknown Source)
+	at A.m.a(Unknown Source)
+	at A.n.run(Unknown Source)
+
+9/30/25, 5:00:00 PM :Info: USB D2XX, Serial #Auto @ 115200 Baud Controller not found
+Saved user properties successfully
+Saved user properties successfully
+9/30/25, 5:00:00 PM :Info: Setting connection to: USB D2XX, Serial #Auto @ 9600 Baud
+Sep 30, 2025 5:00:00 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 1 (All:1)
+9/30/25, 5:00:00 PM :Debug: Opening Connection to FTDI Device: USB D2XX, Serial # @ 9600 Baud
+Device: FTDevice{devDescription=, devSerialNumber=}
+Device Type: DEVICE_UNKNOWN
+Device ID: 0
+Device Location ID: 0
+Sep 30, 2025 5:00:00 PM aB.b f
+SEVERE: null
+com.ftdi.FTD2XXException: D2XX error, ftStatus:DEVICE_NOT_FOUND
+	at com.ftdi.FTDevice.ensureFTStatus(FTDevice.java:146)
+	at com.ftdi.FTDevice.open(FTDevice.java:327)
+	at aB.b.f(Unknown Source)
+	at A.t.h(Unknown Source)
+	at A.m.b(Unknown Source)
+	at A.m.a(Unknown Source)
+	at A.n.run(Unknown Source)
+
+9/30/25, 5:00:01 PM :Info: USB D2XX, Serial #Auto @ 9600 Baud Controller not found
+Saved user properties successfully
+9/30/25, 5:00:02 PM :Debug: set baud to 115200
+Saved user properties successfully
+[Duplicate entry] received 2 times: Debug: set baud to 115200
+9/30/25, 5:00:02 PM :Info: Setting connection to: RS232: Port:/dev/ttyS0, Baud:115200
+9/30/25, 5:00:02 PM :Debug: !!!!!! Time to Connect = 2
+9/30/25, 5:00:03 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x51                                                                   Q
+9/30/25, 5:00:03 PM :Info: Comm Read Thread Change! Old Thread:null, new Thread:check
+
+9/30/25, 5:00:03 PM :Debug: Purged 1 orphaned bytes:
+9/30/25, 5:00:03 PM :Debug: Time:3.232s. 0x0 
+9/30/25, 5:00:03 PM :Debug: Time:3.232s. 
+
+9/30/25, 5:00:03 PM :Debug: Time:3.232s.   .  
+9/30/25, 5:00:04 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200
+9/30/25, 5:00:04 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x53                                                                   S
+9/30/25, 5:00:04 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200
+9/30/25, 5:00:04 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x0D                                                                   .
+9/30/25, 5:00:05 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200, completed this port query
+9/30/25, 5:00:05 PM :Info: Timeout on: RS232: Port:/dev/ttyS0, Baud:115200
+9/30/25, 5:00:05 PM :Info: no Controller found on RS232: Port:/dev/ttyS0, Baud:115200
+Saved user properties successfully
+9/30/25, 5:00:05 PM :Debug: set baud to 9600
+Saved user properties successfully
+9/30/25, 5:00:05 PM :Info: Setting connection to: RS232: Port:/dev/ttyS0, Baud:9600
+9/30/25, 5:00:05 PM :Debug: !!!!!! Time to Connect = 1
+9/30/25, 5:00:07 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x51                                                                   Q
+
+9/30/25, 5:00:07 PM :Debug: Purged 1 orphaned bytes:
+9/30/25, 5:00:07 PM :Debug: Time:6.786s. 0x0 
+9/30/25, 5:00:07 PM :Debug: Time:6.786s. 
+
+9/30/25, 5:00:07 PM :Debug: Time:6.786s.   .  
+9/30/25, 5:00:07 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600
+9/30/25, 5:00:07 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x53                                                                   S
+9/30/25, 5:00:08 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600
+9/30/25, 5:00:08 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x0D                                                                   .
+9/30/25, 5:00:09 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600, completed this port query
+9/30/25, 5:00:09 PM :Info: Timeout on: RS232: Port:/dev/ttyS0, Baud:9600
+9/30/25, 5:00:09 PM :Info: no Controller found on RS232: Port:/dev/ttyS0, Baud:9600
+Saved user properties successfully
+9/30/25, 5:00:09 PM :Debug: set baud to 115200
+Saved user properties successfully
+9/30/25, 5:00:09 PM :Info: Setting connection to: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/30/25, 5:00:09 PM :Debug: !!!!!! Time to Connect = 3
+9/30/25, 5:00:10 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:115200 Command: x51                                                                   Q
+9/30/25, 5:00:11 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/30/25, 5:00:11 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:115200 Command: x53                                                                   S
+9/30/25, 5:00:12 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/30/25, 5:00:12 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:115200 Command: x0D                                                                   .
+9/30/25, 5:00:12 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:115200, completed this port query
+9/30/25, 5:00:12 PM :Info: Timeout on: RS232: Port:/dev/ttyUSB0, Baud:115200
+9/30/25, 5:00:12 PM :Info: no Controller found on RS232: Port:/dev/ttyUSB0, Baud:115200
+Saved user properties successfully
+9/30/25, 5:00:12 PM :Debug: set baud to 9600
+Saved user properties successfully
+9/30/25, 5:00:12 PM :Info: Setting connection to: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/30/25, 5:00:12 PM :Debug: !!!!!! Time to Connect = 3
+9/30/25, 5:00:14 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:9600 Command: x51                                                                   Q
+9/30/25, 5:00:15 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/30/25, 5:00:15 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:9600 Command: x53                                                                   S
+9/30/25, 5:00:15 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/30/25, 5:00:15 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:9600 Command: x0D                                                                   .
+9/30/25, 5:00:16 PM :Info: Timeout on port: RS232: Port:/dev/ttyUSB0, Baud:9600, completed this port query
+9/30/25, 5:00:16 PM :Info: Timeout on: RS232: Port:/dev/ttyUSB0, Baud:9600
+9/30/25, 5:00:16 PM :Info: no Controller found on RS232: Port:/dev/ttyUSB0, Baud:9600
+Saved user properties successfully
+9/30/25, 5:00:17 PM :Debug: set baud to 115200
+9/30/25, 5:00:17 PM :Debug: set baud to 9600
+Saved user properties successfully
+9/30/25, 5:00:18 PM :Info: Setting connection to: 192.168.1.80:2000
+9/30/25, 5:00:18 PM :Debug: Opening Connection to TCP Device: 192.168.1.80:2000
+9/30/25, 5:00:20 PM :Info: 192.168.1.80:2000 Controller not found
+Saved user properties successfully
+Saved user properties successfully
+9/30/25, 5:00:20 PM :Info: Setting connection to: 192.168.1.81:2000
+9/30/25, 5:00:20 PM :Debug: Opening Connection to TCP Device: 192.168.1.81:2000
+9/30/25, 5:00:22 PM :Info: 192.168.1.81:2000 Controller not found
+Saved user properties successfully
+9/30/25, 5:00:24 PM :Debug: Device not found
+[Duplicate entry] received 3 times: Debug: Device not found
+9/30/25, 5:00:24 PM :Debug: goOffline Starting, Time:0
+9/30/25, 5:00:24 PM :Info: Deactivated Turbo Baud, goOffline
+9/30/25, 5:00:24 PM :Debug: goOffline about to stopProcessing, Time:1
+9/30/25, 5:00:24 PM :Debug: goOffline closed port, Time:1
+9/30/25, 5:00:24 PM :Debug: CheckThread exiting
+9/30/25, 5:00:25 PM :Debug: goOffline comm thread stopped, Time:501
+9/30/25, 5:00:25 PM :Debug: No Remaining Queue Write instructions
+9/30/25, 5:38:59 PM :Debug: Cancel Wizard
+9/30/25, 5:38:59 PM :Info: closeApp Called
+9/30/25, 5:38:59 PM :Info: Finalizing Sensors
+Saved user properties successfully
+Starting on cyberman
+TunerStudio 3.3.00 started on Wed Oct 01 20:16:55 EDT 2025
+JRE 21.0.8, Linux 6.12.43+deb13-amd64, amd64
+java.library.path=lib/alternateLinuxDrivers/x86_64-linux:lib
+TunerStudioMS.jar
+java.lang.reflect.InaccessibleObjectException: Unable to make field private static java.nio.charset.Charset java.nio.charset.Charset.defaultCharset accessible: module java.base does not "opens java.nio.charset" to unnamed module @7225790e
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:183)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:177)
+	at TunerStudio.main(Unknown Source)
+Look:Metal, ClassName:'javax.swing.plaf.metal.MetalLookAndFeel'
+Look:Nimbus, ClassName:'javax.swing.plaf.nimbus.NimbusLookAndFeel'
+Look:CDE/Motif, ClassName:'com.sun.java.swing.plaf.motif.MotifLookAndFeel'
+Look:GTK+, ClassName:'com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
+Look:Night Shade, ClassName:'de.muntjak.tinylookandfeel.TinyLookAndFeel'
+Setting Look & Feel to:javax.swing.plaf.metal.MetalLookAndFeel
+ScrollBar.width
+10/1/25, 8:16:55 PM :Debug: no update:defaultFont
+10/1/25, 8:16:56 PM :Info: Initializing File Dialogs.
+10/1/25, 8:16:56 PM :Info: Updating ai & t
+10/1/25, 8:16:56 PM :Info: Loading Language Content.
+10/1/25, 8:16:56 PM :Debug: Command Non-VolatileBytes for F resolved to: x46                                                                   F
+10/1/25, 8:16:56 PM :Debug: Command Non-VolatileBytes for I resolved to: x49                                                                   I
+10/1/25, 8:16:56 PM :Debug: Command Non-VolatileBytes for f resolved to: x66                                                                   f
+10/1/25, 8:16:56 PM :Info: Initializing Plugin Services.
+10/1/25, 8:16:56 PM :Info: Loading Plugins.
+10/1/25, 8:16:56 PM :Info: Initializing Help.
+10/1/25, 8:16:56 PM :Info: Initializing Edition Features.
+10/1/25, 8:16:56 PM :Info: Initializing App Events.
+10/1/25, 8:16:56 PM :Debug: App Name:TunerStudio, appEdition:MS
+10/1/25, 8:16:56 PM :Info: Initializing User Interface
+10/1/25, 8:16:58 PM :Info: Loading Font list.
+10/1/25, 8:16:58 PM :Debug: Time to retreive font name list: 3 ms.
+10/1/25, 8:16:58 PM :Info: 
+10/1/25, 8:16:58 PM :Info: Initializing UI Components.
+10/1/25, 8:16:58 PM :Info: Ready
+10/1/25, 8:16:59 PM :Info: IniUpdate: No updates available.
+10/1/25, 8:16:59 PM :Info: IncUpdate: No updates available.
+MSmain: No check, last update check=Sun Sep 28 16:50:02 EDT 2025
+MSad: No check, last update check=Sun Sep 28 16:50:06 EDT 2025
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+10/1/25, 8:17:36 PM :Debug: set baud to 9600
+[Duplicate entry] received 2 times: Debug: set baud to 9600
+10/1/25, 8:17:39 PM :Debug: Cancel Wizard
+10/1/25, 8:17:43 PM :Debug: Time to load ini list: 63ms.
+Oct 01, 2025 8:17:45 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 0 (All:0)
+10/1/25, 8:17:45 PM :Debug: Created CheckThread
+Saved user properties successfully
+10/1/25, 8:17:45 PM :Info: Setting connection to: USB D2XX, Serial #Auto @ 115200 Baud
+Oct 01, 2025 8:17:45 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 0 (All:0)
+10/1/25, 8:17:45 PM :Info: USB D2XX, Serial #Auto @ 115200 Baud Controller not found
+Saved user properties successfully
+Saved user properties successfully
+10/1/25, 8:17:45 PM :Info: Setting connection to: USB D2XX, Serial #Auto @ 9600 Baud
+Oct 01, 2025 8:17:45 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 0 (All:0)
+10/1/25, 8:17:45 PM :Info: USB D2XX, Serial #Auto @ 9600 Baud Controller not found
+Saved user properties successfully
+10/1/25, 8:17:46 PM :Debug: set baud to 115200
+Saved user properties successfully
+[Duplicate entry] received 2 times: Debug: set baud to 115200
+10/1/25, 8:17:47 PM :Info: Setting connection to: RS232: Port:/dev/ttyS0, Baud:115200
+10/1/25, 8:17:47 PM :Debug: !!!!!! Time to Connect = 4
+10/1/25, 8:17:48 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x51                                                                   Q
+10/1/25, 8:17:48 PM :Info: Comm Read Thread Change! Old Thread:null, new Thread:check
+
+10/1/25, 8:17:48 PM :Debug: Purged 1 orphaned bytes:
+10/1/25, 8:17:48 PM :Debug: Time:3.281s. 0x0 
+10/1/25, 8:17:48 PM :Debug: Time:3.281s. 
+
+10/1/25, 8:17:48 PM :Debug: Time:3.281s.   .  
+10/1/25, 8:17:49 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200
+10/1/25, 8:17:49 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x53                                                                   S
+10/1/25, 8:17:49 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200
+10/1/25, 8:17:49 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x0D                                                                   .
+10/1/25, 8:17:50 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200, completed this port query
+10/1/25, 8:17:50 PM :Info: Timeout on: RS232: Port:/dev/ttyS0, Baud:115200
+10/1/25, 8:17:50 PM :Info: no Controller found on RS232: Port:/dev/ttyS0, Baud:115200
+Saved user properties successfully
+10/1/25, 8:17:50 PM :Debug: set baud to 9600
+Saved user properties successfully
+10/1/25, 8:17:50 PM :Info: Setting connection to: RS232: Port:/dev/ttyS0, Baud:9600
+10/1/25, 8:17:50 PM :Debug: !!!!!! Time to Connect = 1
+10/1/25, 8:17:52 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x51                                                                   Q
+
+10/1/25, 8:17:52 PM :Debug: Purged 1 orphaned bytes:
+10/1/25, 8:17:52 PM :Debug: Time:6.838s. 0x0 
+10/1/25, 8:17:52 PM :Debug: Time:6.838s. 
+
+10/1/25, 8:17:52 PM :Debug: Time:6.838s.   .  
+10/1/25, 8:17:52 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600
+10/1/25, 8:17:52 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x53                                                                   S
+10/1/25, 8:17:53 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600
+10/1/25, 8:17:53 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x0D                                                                   .
+10/1/25, 8:17:53 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600, completed this port query
+10/1/25, 8:17:53 PM :Info: Timeout on: RS232: Port:/dev/ttyS0, Baud:9600
+10/1/25, 8:17:53 PM :Info: no Controller found on RS232: Port:/dev/ttyS0, Baud:9600
+Saved user properties successfully
+10/1/25, 8:17:54 PM :Debug: set baud to 115200
+10/1/25, 8:17:54 PM :Debug: set baud to 9600
+Saved user properties successfully
+10/1/25, 8:17:56 PM :Info: Setting connection to: 192.168.1.80:2000
+10/1/25, 8:17:56 PM :Debug: Opening Connection to TCP Device: 192.168.1.80:2000
+10/1/25, 8:17:58 PM :Info: 192.168.1.80:2000 Controller not found
+Saved user properties successfully
+Saved user properties successfully
+10/1/25, 8:17:58 PM :Info: Setting connection to: 192.168.1.81:2000
+10/1/25, 8:17:58 PM :Debug: Opening Connection to TCP Device: 192.168.1.81:2000
+10/1/25, 8:18:00 PM :Info: 192.168.1.81:2000 Controller not found
+Saved user properties successfully
+10/1/25, 8:18:02 PM :Debug: Device not found
+10/1/25, 8:18:02 PM :Debug: goOffline Starting, Time:0
+10/1/25, 8:18:02 PM :Info: Deactivated Turbo Baud, goOffline
+10/1/25, 8:18:02 PM :Debug: goOffline about to stopProcessing, Time:1
+10/1/25, 8:18:02 PM :Debug: goOffline closed port, Time:2
+10/1/25, 8:18:02 PM :Debug: CheckThread exiting
+10/1/25, 8:18:02 PM :Debug: goOffline comm thread stopped, Time:502
+10/1/25, 8:18:02 PM :Debug: No Remaining Queue Write instructions
+10/1/25, 8:28:22 PM :Debug: set baud to 9600
+Oct 01, 2025 8:29:37 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 0 (All:1)
+10/1/25, 8:29:37 PM :Debug: Created CheckThread
+Saved user properties successfully
+10/1/25, 8:29:37 PM :Info: Setting connection to: USB D2XX, Serial #Auto @ 115200 Baud
+Oct 01, 2025 8:29:37 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 1 (All:1)
+10/1/25, 8:29:37 PM :Debug: Opening Connection to FTDI Device: USB D2XX, Serial # @ 115200 Baud
+Device: FTDevice{devDescription=, devSerialNumber=}
+Device Type: DEVICE_UNKNOWN
+Device ID: 0
+Device Location ID: 0
+Oct 01, 2025 8:29:37 PM aB.b f
+SEVERE: null
+com.ftdi.FTD2XXException: D2XX error, ftStatus:DEVICE_NOT_FOUND
+	at com.ftdi.FTDevice.ensureFTStatus(FTDevice.java:146)
+	at com.ftdi.FTDevice.open(FTDevice.java:327)
+	at aB.b.f(Unknown Source)
+	at A.t.h(Unknown Source)
+	at A.m.b(Unknown Source)
+	at A.m.a(Unknown Source)
+	at A.n.run(Unknown Source)
+
+10/1/25, 8:29:37 PM :Info: USB D2XX, Serial #Auto @ 115200 Baud Controller not found
+Saved user properties successfully
+Saved user properties successfully
+10/1/25, 8:29:37 PM :Info: Setting connection to: USB D2XX, Serial #Auto @ 9600 Baud
+Oct 01, 2025 8:29:37 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 1 (All:1)
+10/1/25, 8:29:37 PM :Debug: Opening Connection to FTDI Device: USB D2XX, Serial # @ 9600 Baud
+Device: FTDevice{devDescription=, devSerialNumber=}
+Device Type: DEVICE_UNKNOWN
+Device ID: 0
+Device Location ID: 0
+Oct 01, 2025 8:29:37 PM aB.b f
+SEVERE: null
+com.ftdi.FTD2XXException: D2XX error, ftStatus:DEVICE_NOT_FOUND
+	at com.ftdi.FTDevice.ensureFTStatus(FTDevice.java:146)
+	at com.ftdi.FTDevice.open(FTDevice.java:327)
+	at aB.b.f(Unknown Source)
+	at A.t.h(Unknown Source)
+	at A.m.b(Unknown Source)
+	at A.m.a(Unknown Source)
+	at A.n.run(Unknown Source)
+
+10/1/25, 8:29:37 PM :Info: USB D2XX, Serial #Auto @ 9600 Baud Controller not found
+Saved user properties successfully
+10/1/25, 8:29:38 PM :Debug: set baud to 115200
+Saved user properties successfully
+[Duplicate entry] received 2 times: Debug: set baud to 115200
+10/1/25, 8:29:38 PM :Info: Setting connection to: RS232: Port:/dev/ttyS0, Baud:115200
+10/1/25, 8:29:38 PM :Debug: !!!!!! Time to Connect = 1
+10/1/25, 8:29:40 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x51                                                                   Q
+10/1/25, 8:29:40 PM :Info: Comm Read Thread Change! Old Thread:null, new Thread:check
+
+10/1/25, 8:29:40 PM :Debug: Purged 1 orphaned bytes:
+10/1/25, 8:29:40 PM :Debug: Time:3.29s. 0x0 
+10/1/25, 8:29:40 PM :Debug: Time:3.29s. 
+
+10/1/25, 8:29:40 PM :Debug: Time:3.29s.   .  
+10/1/25, 8:29:40 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200
+10/1/25, 8:29:40 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x53                                                                   S
+10/1/25, 8:29:41 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200
+10/1/25, 8:29:41 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x0D                                                                   .
+10/1/25, 8:29:42 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200, completed this port query
+10/1/25, 8:29:42 PM :Info: Timeout on: RS232: Port:/dev/ttyS0, Baud:115200
+10/1/25, 8:29:42 PM :Info: no Controller found on RS232: Port:/dev/ttyS0, Baud:115200
+Saved user properties successfully
+10/1/25, 8:29:42 PM :Debug: set baud to 9600
+Saved user properties successfully
+10/1/25, 8:29:42 PM :Info: Setting connection to: RS232: Port:/dev/ttyS0, Baud:9600
+10/1/25, 8:29:42 PM :Debug: !!!!!! Time to Connect = 2
+10/1/25, 8:29:43 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x51                                                                   Q
+
+10/1/25, 8:29:43 PM :Debug: Purged 1 orphaned bytes:
+10/1/25, 8:29:43 PM :Debug: Time:6.846s. 0x0 
+10/1/25, 8:29:43 PM :Debug: Time:6.846s. 
+
+10/1/25, 8:29:43 PM :Debug: Time:6.847s.   .  
+10/1/25, 8:29:44 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600
+10/1/25, 8:29:44 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x53                                                                   S
+10/1/25, 8:29:45 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600
+10/1/25, 8:29:45 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x0D                                                                   .
+10/1/25, 8:29:45 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600, completed this port query
+10/1/25, 8:29:45 PM :Info: Timeout on: RS232: Port:/dev/ttyS0, Baud:9600
+10/1/25, 8:29:45 PM :Info: no Controller found on RS232: Port:/dev/ttyS0, Baud:9600
+Saved user properties successfully
+10/1/25, 8:29:45 PM :Debug: set baud to 115200
+Saved user properties successfully
+10/1/25, 8:29:45 PM :Info: Setting connection to: RS232: Port:/dev/ttyUSB0, Baud:115200
+10/1/25, 8:29:45 PM :Debug: !!!!!! Time to Connect = 3
+10/1/25, 8:29:47 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:115200 Command: x51                                                                   Q
+10/1/25, 8:29:48 PM :Debug: found signature:MS2Extra comms342h2, using queryCommand:Q
+10/1/25, 8:29:48 PM :Info: Found Device, discontinue search on RS232: Port:/dev/ttyUSB0, Baud:115200
+10/1/25, 8:29:48 PM :Debug: Finished Check:RS232: Port:/dev/ttyUSB0, Baud:115200
+Result:Signature:MS2Extra comms342h2, firmware:MS2/Extra 3.4.3 release  20191126 15:29BST(c)KC/JSM/JB   MS2
+Saved user properties successfully
+10/1/25, 8:29:48 PM :Debug: Device MS2/Extra 3.4.3 release  20191126 15:29BST(c)KC/JSM/JB   MS2, requiring serial Signature:MS2Extra comms342h2 found at:RS232: Port:/dev/ttyUSB0, Baud:115200
+10/1/25, 8:29:48 PM :Debug: set baud to 9600
+10/1/25, 8:29:48 PM :Info: distinctSetting already found for: RS232: Port:/dev/ttyUSB0, Baud:9600
+10/1/25, 8:29:49 PM :Debug: set baud to 115200
+10/1/25, 8:29:49 PM :Debug: set baud to 9600
+Saved user properties successfully
+10/1/25, 8:29:51 PM :Info: Setting connection to: 192.168.1.80:2000
+10/1/25, 8:29:51 PM :Debug: Opening Connection to TCP Device: 192.168.1.80:2000
+10/1/25, 8:29:53 PM :Info: 192.168.1.80:2000 Controller not found
+Saved user properties successfully
+Saved user properties successfully
+10/1/25, 8:29:53 PM :Info: Setting connection to: 192.168.1.81:2000
+10/1/25, 8:29:53 PM :Debug: Opening Connection to TCP Device: 192.168.1.81:2000
+10/1/25, 8:29:55 PM :Info: 192.168.1.81:2000 Controller not found
+Saved user properties successfully
+10/1/25, 8:29:55 PM :Debug: Ok, device accepted:Signature:MS2Extra comms342h2, firmware:MS2/Extra 3.4.3 release  20191126 15:29BST(c)KC/JSM/JB   MS2
+10/1/25, 8:29:56 PM :Debug: goOffline Starting, Time:0
+10/1/25, 8:29:56 PM :Info: Deactivated Turbo Baud, goOffline
+10/1/25, 8:29:56 PM :Debug: goOffline about to stopProcessing, Time:1
+10/1/25, 8:29:56 PM :Debug: goOffline closed port, Time:1
+10/1/25, 8:29:56 PM :Debug: CheckThread exiting
+10/1/25, 8:29:56 PM :Debug: goOffline comm thread stopped, Time:502
+10/1/25, 8:29:56 PM :Debug: No Remaining Queue Write instructions
+10/1/25, 8:29:57 PM :Info: Supported iniSpecVersion=3.78
+[Duplicate entry] received 2 times: Info: Supported iniSpecVersion=3.78
+10/1/25, 8:29:57 PM :Debug: Filtered ConfigurationOptionGroup in 4ms.
+10/1/25, 8:30:32 PM :Info: Supported iniSpecVersion=3.78
+[Duplicate entry] received 2 times: Info: Supported iniSpecVersion=3.78
+10/1/25, 8:30:32 PM :Debug: Filtered ConfigurationOptionGroup in 4ms.
+10/1/25, 8:30:39 PM :Info: Supported iniSpecVersion=3.78
+10/1/25, 8:30:39 PM :Info: Read file canPcVariables.ini: 2.177747ms
+10/1/25, 8:30:39 PM :Info: Filtered ini: 0.077558ms
+10/1/25, 8:30:39 PM :Info: No iniVersion defined
+10/1/25, 8:30:39 PM :Info: Loading Trigger Wheels
+10/1/25, 8:30:39 PM :Info: Loaded All known ini sections
+10/1/25, 8:30:39 PM :Info: Parsed and validated ini "canPcVariables.ini" in : 11ms.
+10/1/25, 8:30:39 PM :Info: Read file MS2Extracomms342h2.ini: 3.08573ms
+10/1/25, 8:30:39 PM :Info: Filtered ini: 3.256311ms
+10/1/25, 8:30:39 PM :Info: No iniVersion defined
+10/1/25, 8:30:39 PM :Debug: ini signature: MS2Extra comms342h2
+10/1/25, 8:30:39 PM :Info: Loading Trigger Wheels
+10/1/25, 8:30:39 PM :Info: Loading Depricated ini section [UserDefined], use [UiDialogs]
+10/1/25, 8:30:39 PM :Debug: break 5988812
+10/1/25, 8:30:39 PM :Info: Loaded All known ini sections
+10/1/25, 8:30:39 PM :Info: Parsed and validated ini "MS2Extracomms342h2.ini" in : 92ms.
+10/1/25, 8:30:39 PM :Debug: Adding Configuration: 280ZX_Narrowband
+10/1/25, 8:30:39 PM :Debug: goOffline Starting, Time:0
+10/1/25, 8:30:39 PM :Info: Deactivated Turbo Baud, goOffline
+10/1/25, 8:30:39 PM :Debug: goOffline about to stopProcessing, Time:0
+10/1/25, 8:30:39 PM :Debug: goOffline closed port, Time:0
+10/1/25, 8:30:39 PM :Debug: goOffline Starting, Time:0
+10/1/25, 8:30:39 PM :Info: Deactivated Turbo Baud, goOffline
+10/1/25, 8:30:39 PM :Debug: goOffline about to stopProcessing, Time:0
+10/1/25, 8:30:39 PM :Debug: goOffline closed port, Time:0
+10/1/25, 8:30:39 PM :Debug: goOffline Starting, Time:0
+10/1/25, 8:30:39 PM :Info: Deactivated Turbo Baud, goOffline
+10/1/25, 8:30:39 PM :Debug: goOffline about to stopProcessing, Time:0
+10/1/25, 8:30:39 PM :Debug: goOffline closed port, Time:0
+10/1/25, 8:30:39 PM :Debug: set baud to 115200
+[Duplicate entry] received 2 times: Debug: set baud to 115200
+10/1/25, 8:30:39 PM :Debug: goOffline Starting, Time:0
+10/1/25, 8:30:39 PM :Info: Deactivated Turbo Baud, goOffline
+10/1/25, 8:30:39 PM :Debug: goOffline about to stopProcessing, Time:0
+10/1/25, 8:30:39 PM :Debug: goOffline closed port, Time:0
+10/1/25, 8:30:39 PM :Debug: goOffline comm thread stopped, Time:501
+10/1/25, 8:30:39 PM :Debug: No Remaining Queue Write instructions
+10/1/25, 8:30:39 PM :Debug: goOffline comm thread stopped, Time:500
+10/1/25, 8:30:39 PM :Debug: No Remaining Queue Write instructions
+10/1/25, 8:30:39 PM :Debug: goOffline comm thread stopped, Time:501
+10/1/25, 8:30:39 PM :Debug: No Remaining Queue Write instructions
+10/1/25, 8:30:39 PM :Debug: goOffline comm thread stopped, Time:500
+10/1/25, 8:30:39 PM :Debug: No Remaining Queue Write instructions
+10/1/25, 8:30:39 PM :Info: Setting connection to: RS232: Port:/dev/ttyUSB0, Baud:115200
+10/1/25, 8:30:39 PM :Info: Comm Read Thread Change! Old Thread:null, new Thread:Thread-35
+10/1/25, 8:30:39 PM :Debug: Read from RS232: Port:/dev/ttyUSB0, Baud:115200, signature:x4D x53 x32 x45 x78 x74 x72 x61 x20 x63 x6F x6D x6D x73 x33 x34       MS2Extra.comms34
+x32 x68 x32 x00                                                       2h2.
+10/1/25, 8:30:43 PM :Info: Time to load non-cached dashboard: 85.53593 ms. file:Default (280ZX_Narrowband).dash
+10/1/25, 8:30:43 PM :Info: Time to load uncached dash: 42.673286ms, file: Default (280ZX_Narrowband).dash
+10/1/25, 8:30:43 PM :Debug: High Speed Paint: true
+10/1/25, 8:30:46 PM :Warning: Could not get Firmware signature
+10/1/25, 8:30:46 PM :Info: Time to load non-cached dashboard: 13.560228 ms. file:dashboard.dash
+10/1/25, 8:30:46 PM :Debug: set baud to 115200
+[Duplicate entry] received 2 times: Debug: set baud to 115200
+10/1/25, 8:30:46 PM :Debug: ############################################# Save Project Backup ##########################################
+10/1/25, 8:30:46 PM :Debug: removing Configuration: 280ZX_Narrowband
+10/1/25, 8:30:46 PM :Info: No Persistor set, not saving active triggers.
+10/1/25, 8:30:46 PM :Info: Persistor not set, not storing persistent accumulated values.
+10/1/25, 8:30:46 PM :Debug: goOffline Starting, Time:0
+10/1/25, 8:30:46 PM :Info: Deactivated Turbo Baud, goOffline
+10/1/25, 8:30:46 PM :Debug: goOffline about to stopProcessing, Time:1
+10/1/25, 8:30:46 PM :Debug: goOffline closed port, Time:1
+10/1/25, 8:30:47 PM :Debug: goOffline comm thread stopped, Time:501
+10/1/25, 8:30:47 PM :Debug: No Remaining Queue Write instructions
+10/1/25, 8:30:47 PM :Error: Failed to start PaintThrottle Thread: null
+10/1/25, 8:30:47 PM :Info: Error: Failed to start PaintThrottle Thread: null
+10/1/25, 8:30:47 PM :Debug: removing Configuration: 280ZX_Narrowband
+10/1/25, 8:30:47 PM :Info: Opening Project ...
+10/1/25, 8:30:47 PM :Debug: Opening project: /home/steev/TunerStudioProjects/280ZX_Narrowband
+10/1/25, 8:30:47 PM :Debug: EventTrigger Data log Reset. expression: 
+10/1/25, 8:30:47 PM :Debug: EventTrigger Stop Data log Reset. expression: 
+10/1/25, 8:30:47 PM :Debug: Reading translation file as plain text
+10/1/25, 8:30:47 PM :Info: Supported iniSpecVersion=3.78
+10/1/25, 8:30:47 PM :Debug: Filtered ConfigurationOptionGroup in 4ms.
+10/1/25, 8:30:47 PM :Info: Supported iniSpecVersion=3.78
+10/1/25, 8:30:47 PM :Info: Read file canPcVariables.ini: 0.159339ms
+10/1/25, 8:30:47 PM :Info: Filtered ini: 0.007111ms
+10/1/25, 8:30:47 PM :Info: No iniVersion defined
+10/1/25, 8:30:47 PM :Info: Loading Trigger Wheels
+10/1/25, 8:30:47 PM :Info: Loaded All known ini sections
+10/1/25, 8:30:47 PM :Info: Parsed and validated ini "canPcVariables.ini" in : 1ms.
+10/1/25, 8:30:47 PM :Info: Read file mainController.ini: 3.013119ms
+10/1/25, 8:30:47 PM :Info: Filtered ini: 2.56454ms
+10/1/25, 8:30:47 PM :Info: No iniVersion defined
+10/1/25, 8:30:47 PM :Debug: ini signature: MS2Extra comms342h2
+10/1/25, 8:30:47 PM :Info: Loading Trigger Wheels
+10/1/25, 8:30:47 PM :Info: Loading Depricated ini section [UserDefined], use [UiDialogs]
+10/1/25, 8:30:47 PM :Debug: break 5988812
+10/1/25, 8:30:47 PM :Info: Loaded All known ini sections
+10/1/25, 8:30:47 PM :Info: Parsed and validated ini "mainController.ini" in : 46ms.
+10/1/25, 8:30:47 PM :Info: Supported iniSpecVersion=3.78
+10/1/25, 8:30:47 PM :Info: Read file ms2Supplement.ecu: 8.284834ms
+10/1/25, 8:30:47 PM :Info: Filtered ini: 0.090752ms
+10/1/25, 8:30:47 PM :Info: No iniVersion defined
+10/1/25, 8:30:47 PM :Info: Loading Trigger Wheels
+10/1/25, 8:30:47 PM :Info: Loading Depricated ini section [UserDefined], use [UiDialogs]
+10/1/25, 8:30:47 PM :Info: Validate Expressions disabled.
+10/1/25, 8:30:47 PM :Info: Loaded All known ini sections
+10/1/25, 8:30:47 PM :Info: Parsed ini "ms2Supplement.ecu" in : 11ms.
+10/1/25, 8:30:47 PM :Info: Supported iniSpecVersion=3.78
+10/1/25, 8:30:47 PM :Info: Read file ms2ExtraDefaultTools.ini: 0.269084ms
+10/1/25, 8:30:47 PM :Info: Filtered ini: 0.005941ms
+10/1/25, 8:30:47 PM :Info: No iniVersion defined
+10/1/25, 8:30:47 PM :Info: Loading Trigger Wheels
+10/1/25, 8:30:47 PM :Info: Loaded All known ini sections
+10/1/25, 8:30:47 PM :Info: Parsed and validated ini "ms2ExtraDefaultTools.ini" in : 1ms.
+10/1/25, 8:30:47 PM :Info: Time to load primary config: 67.10409ms. used cached config: false
+10/1/25, 8:30:47 PM :Info: Supported iniSpecVersion=3.78
+10/1/25, 8:30:47 PM :Info: Read file ms2WueAnalyzeMaps.ecu: 0.441228ms
+10/1/25, 8:30:47 PM :Info: Filtered ini: 0.052322ms
+10/1/25, 8:30:47 PM :Info: No iniVersion defined
+10/1/25, 8:30:47 PM :Info: Loading Trigger Wheels
+10/1/25, 8:30:47 PM :Info: Loaded All known ini sections
+10/1/25, 8:30:47 PM :Info: Parsed and validated ini "ms2WueAnalyzeMaps.ecu" in : 3ms.
+10/1/25, 8:30:47 PM :Debug: set baud to 115200
+10/1/25, 8:30:47 PM :Info: Setting connection to: RS232: Port:/dev/ttyUSB0, Baud:115200
+10/1/25, 8:30:47 PM :Debug: Adding Configuration: 280ZX_Narrowband
+10/1/25, 8:30:47 PM :Info: !!! Loaded config in 111
+10/1/25, 8:30:47 PM :Info: !!! Activated Project 314
+10/1/25, 8:30:47 PM :Info: Opening Gauge Cluster..
+10/1/25, 8:30:47 PM :Info: Time to load uncached dash: 25.07578ms, file: dashboard.dash
+10/1/25, 8:30:47 PM :Debug: High Speed Paint: true
+10/1/25, 8:30:48 PM :Info: 
+10/1/25, 8:30:48 PM :Info: Com Thread created: COMM Thread57892.26285842758
+10/1/25, 8:30:48 PM :Info: endModalBlock called, but Root Pane is not a ProgressPane.
+10/1/25, 8:30:48 PM :Info: Comm Manager for 280ZX_Narrowband Started, thread ID: COMM Thread57892.26285842758
+10/1/25, 8:30:48 PM :Debug: !!! Opened Dash 604
+10/1/25, 8:30:48 PM :Info: Connecting to controller on: RS232: Port:/dev/ttyUSB0, Baud:115200
+10/1/25, 8:30:48 PM :Info: 280ZX_Narrowband Ready
+10/1/25, 8:30:48 PM :Info: Comm Read Thread Change! Old Thread:null, new Thread:COMM Thread57892.26285842758
+10/1/25, 8:30:48 PM :Info: Supported iniSpecVersion=3.78
+10/1/25, 8:30:48 PM :Info: Read file ms2ExtraVeAnalyzeMaps.ini: 0.810553ms
+10/1/25, 8:30:48 PM :Info: Filtered ini: 0.115522ms
+10/1/25, 8:30:48 PM :Info: No iniVersion defined
+10/1/25, 8:30:48 PM :Info: Loading Trigger Wheels
+10/1/25, 8:30:48 PM :Info: Loaded All known ini sections
+10/1/25, 8:30:48 PM :Info: Parsed and validated ini "ms2ExtraVeAnalyzeMaps.ini" in : 2ms.
+10/1/25, 8:30:48 PM :Debug: Tuning View Files loaded in 156.67357ms.
+10/1/25, 8:30:48 PM :Info: Local on CAN ID:0, blockingFactor: 256, tableBlockingFactor: 256
+10/1/25, 8:30:48 PM :Info: Target device is local, using localBlockingFactors
+10/1/25, 8:30:48 PM :Info: Sig Bytes:x4D x53 x32 x45 x78 x74 x72 x61 x20 x63 x6F x6D x6D x73 x33 x34       MS2Extra.comms34
+x32 x68 x32 x00                                                       2h2.
+10/1/25, 8:30:48 PM :Info: Communicating with sig:MS2Extra comms342h2, MS2/Extra 3.4.3 release  20191126 15:29BST(c)KC/JSM/JB   MS2
+10/1/25, 8:30:48 PM :Info: CRC Mismatch, will need to refresh page from controller 
+10/1/25, 8:30:48 PM :Info:    CRC from controller page 1:x44 x37 xAC xD6                                                       D7..
+10/1/25, 8:30:48 PM :Info:    Local Data CRC for page 1: xEF xB5 xAF x2E                                                       ....
+10/1/25, 8:30:48 PM :Debug: Read page time: 181ms.
+10/1/25, 8:30:48 PM :Info: Checksum page 1 data read: x44 x37 xAC xD6                                                       D7..
+10/1/25, 8:30:48 PM :Info: CRC Mismatch, will need to refresh page from controller 
+10/1/25, 8:30:48 PM :Info:    CRC from controller page 2:xCE x7C xB8 x85                                                       .|..
+10/1/25, 8:30:48 PM :Info:    Local Data CRC for page 2: xEF xB5 xAF x2E                                                       ....
+10/1/25, 8:30:48 PM :Debug: Read page time: 180ms.
+10/1/25, 8:30:48 PM :Info: Checksum page 2 data read: xCE x7C xB8 x85                                                       .|..
+10/1/25, 8:30:48 PM :Info: CRC Mismatch, will need to refresh page from controller 
+10/1/25, 8:30:48 PM :Info:    CRC from controller page 3:xB2 xA6 x6B x0A                                                       ..k.
+10/1/25, 8:30:48 PM :Info:    Local Data CRC for page 3: xEF xB5 xAF x2E                                                       ....
+10/1/25, 8:30:49 PM :Debug: Read page time: 181ms.
+10/1/25, 8:30:49 PM :Info: Checksum page 3 data read: xB2 xA6 x6B x0A                                                       ..k.
+10/1/25, 8:30:49 PM :Info: CRC Mismatch, will need to refresh page from controller 
+10/1/25, 8:30:49 PM :Info:    CRC from controller page 4:x73 x10 x33 xDD                                                       s.3.
+10/1/25, 8:30:49 PM :Info:    Local Data CRC for page 4: xEF xB5 xAF x2E                                                       ....
+10/1/25, 8:30:49 PM :Debug: Read page time: 180ms.
+10/1/25, 8:30:49 PM :Info: Checksum page 4 data read: x73 x10 x33 xDD                                                       s.3.
+10/1/25, 8:30:49 PM :Info: CRC Mismatch, will need to refresh page from controller 
+10/1/25, 8:30:49 PM :Info:    CRC from controller page 5:x12 x5C x16 x4D                                                       .\.M
+10/1/25, 8:30:49 PM :Info:    Local Data CRC for page 5: xEF xB5 xAF x2E                                                       ....
+10/1/25, 8:30:49 PM :Debug: Read page time: 180ms.
+10/1/25, 8:30:49 PM :Info: Checksum page 5 data read: x12 x5C x16 x4D                                                       .\.M
+10/1/25, 8:30:49 PM :Info: CRC Mismatch, will need to refresh page from controller 
+10/1/25, 8:30:49 PM :Info:    CRC from controller page 6:x61 x80 xB9 x61                                                       a..a
+10/1/25, 8:30:49 PM :Info:    Local Data CRC for page 6: xEF xB5 xAF x2E                                                       ....
+10/1/25, 8:30:49 PM :Debug: Read page time: 180ms.
+10/1/25, 8:30:49 PM :Info: Checksum page 6 data read: x61 x80 xB9 x61                                                       a..a
+10/1/25, 8:30:49 PM :Info: CRC Mismatch, will need to refresh page from controller 
+10/1/25, 8:30:49 PM :Info:    CRC from controller page 7:x00 x05 xF8 xAE                                                       ....
+10/1/25, 8:30:49 PM :Info:    Local Data CRC for page 7: xEF xB5 xAF x2E                                                       ....
+10/1/25, 8:30:49 PM :Debug: Read page time: 180ms.
+10/1/25, 8:30:49 PM :Info: Checksum page 7 data read: x00 x05 xF8 xAE                                                       ....
+10/1/25, 8:30:49 PM :Debug: Read All Data
+10/1/25, 8:30:49 PM :Info: rtbaroport changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: spk_config_trig2l changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: ego2port changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: algorithm changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: OddFireang changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: IACStart changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: mapport changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: mycan_id changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: IACcurlim changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: baroCorr changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: spkout_hi_lo2 changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: IgnAlgorithm changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: spk_mode0 changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: divider changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: nInjectors changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: NoiseFilterOpts changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: No_Miss_Teeth changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: alternate changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: IAC_tinitial_step changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: spk_config_trig2 changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: triggerTeeth changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: flexport changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: nCylinders changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: boost_ctl_pins changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: launch_opt_pins changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: staged_pri_size changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: staged_sec_size changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: hybrid_hyst changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: hybrid_rpm changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: ac_idleup_io_out changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: shift_cut_in changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Info: shift_cut_out changed and requires a PowerCycle
+10/1/25, 8:30:49 PM :Debug: Fill Constants: 20
+10/1/25, 8:31:29 PM :Info: Re-establishing connection to: RS232: Port:/dev/ttyUSB0, Baud:115200
+[Duplicate entry] received 2 times: Info: Re-establishing connection to: RS232: Port:/dev/ttyUSB0, Baud:115200
+10/1/25, 8:31:30 PM :Debug: No Remaining Queue Write instructions
+10/1/25, 8:31:30 PM :Debug: Went offline
+10/1/25, 8:31:30 PM :Debug: Deactivated fast paint Main Dashboard
+10/1/25, 8:31:30 PM :Debug: No Remaining Queue Write instructions
+10/1/25, 8:31:30 PM :Info: Went offline 2
+10/1/25, 8:31:39 PM :Info: Logger Processor stopped.
+[Duplicate entry] received 4 times: Info: Logger Processor stopped.
+10/1/25, 8:31:39 PM :Debug: High Speed Paint: true
+10/1/25, 8:31:39 PM :Debug: Deactivated fast paint IgnitionLoggerCluster
+10/1/25, 8:31:53 PM :Info: Local on CAN ID:0, blockingFactor: 256, tableBlockingFactor: 256
+10/1/25, 8:31:53 PM :Info: Target device is local, using localBlockingFactors
+10/1/25, 8:31:53 PM :Warning: Unsupported Controller Firmware:  �?�l�
+10/1/25, 8:31:54 PM :Info: Local on CAN ID:0, blockingFactor: 256, tableBlockingFactor: 256
+10/1/25, 8:31:54 PM :Info: Target device is local, using localBlockingFactors
+10/1/25, 8:31:54 PM :Info: Sig Bytes:x4D x53 x32 x45 x78 x74 x72 x61 x20 x63 x6F x6D x6D x73 x33 x34       MS2Extra.comms34
+x32 x68 x32 x00                                                       2h2.
+10/1/25, 8:31:54 PM :Info: Communicating with sig:MS2Extra comms342h2, MS2/Extra 3.4.3 release  20191126 15:29BST(c)KC/JSM/JB   MS2
+10/1/25, 8:31:54 PM :Debug: CRC matches for page 1:x44 x37 xAC xD6                                                       D7..
+10/1/25, 8:31:54 PM :Info: CrC matched skipped controller read on page:1
+10/1/25, 8:31:54 PM :Debug: CRC matches for page 2:xCE x7C xB8 x85                                                       .|..
+10/1/25, 8:31:54 PM :Info: CrC matched skipped controller read on page:2
+10/1/25, 8:31:54 PM :Debug: CRC matches for page 3:xB2 xA6 x6B x0A                                                       ..k.
+10/1/25, 8:31:54 PM :Info: CrC matched skipped controller read on page:3
+10/1/25, 8:31:54 PM :Debug: CRC matches for page 4:x73 x10 x33 xDD                                                       s.3.
+10/1/25, 8:31:54 PM :Info: CrC matched skipped controller read on page:4
+10/1/25, 8:31:54 PM :Debug: CRC matches for page 5:x12 x5C x16 x4D                                                       .\.M
+10/1/25, 8:31:54 PM :Info: CrC matched skipped controller read on page:5
+10/1/25, 8:31:54 PM :Debug: CRC matches for page 6:x61 x80 xB9 x61                                                       a..a
+10/1/25, 8:31:54 PM :Info: CrC matched skipped controller read on page:6
+10/1/25, 8:31:54 PM :Debug: CRC matches for page 7:x00 x05 xF8 xAE                                                       ....
+10/1/25, 8:31:54 PM :Info: CrC matched skipped controller read on page:7
+10/1/25, 8:31:54 PM :Debug: Read All Data
+10/1/25, 8:31:54 PM :Debug: isBlank Time: 0 ms.
+10/1/25, 8:31:54 PM :Debug: DiffTime: 5 ms.
+10/1/25, 8:32:15 PM :Info: Auto Logging: Stopped Logging
+10/1/25, 8:32:15 PM :Debug: EventTrigger Stop Data log Triggered. expression: 
+10/1/25, 8:32:15 PM :Debug: Starting Log for 1 Configs.
+10/1/25, 8:32:15 PM :Debug: Time to subscribe all data log channels: 0.115961
+10/1/25, 8:32:15 PM :Debug: No currenttune, will generate new msq for infodata.
+10/1/25, 8:32:15 PM :Info: Time to save msq: 45.743114
+10/1/25, 8:32:15 PM :Debug: MLG header created
+10/1/25, 8:32:15 PM :Info: Started Data Log to file: /home/steev/TunerStudioProjects/280ZX_Narrowband/DataLogs/2025-10-01_20.32.06.mlg
+10/1/25, 8:32:15 PM :Info: Channels active on main config 280ZX_Narrowband: 123
+10/1/25, 8:32:15 PM :Info: Capturing DataLog
+10/1/25, 8:32:15 PM :Debug: Skipping Record: nanCount=88
+[Duplicate entry] received 3 times: Debug: Skipping Record: nanCount=88
+10/1/25, 8:32:23 PM :Info: Re-establishing connection to: RS232: Port:/dev/ttyUSB0, Baud:115200
+[Duplicate entry] received 2 times: Info: Re-establishing connection to: RS232: Port:/dev/ttyUSB0, Baud:115200
+10/1/25, 8:32:25 PM :Debug: No Remaining Queue Write instructions
+10/1/25, 8:32:25 PM :Debug: Went offline
+10/1/25, 8:32:25 PM :Debug: No Remaining Queue Write instructions
+10/1/25, 8:32:25 PM :Info: Went offline 2
+10/1/25, 8:32:28 PM :Info: Local on CAN ID:0, blockingFactor: 256, tableBlockingFactor: 256
+10/1/25, 8:32:28 PM :Info: Target device is local, using localBlockingFactors
+10/1/25, 8:32:28 PM :Info: Sig Bytes:x4D x53 x32 x45 x78 x74 x72 x61 x20 x63 x6F x6D x6D x73 x33 x34       MS2Extra.comms34
+x32 x68 x32 x00                                                       2h2.
+10/1/25, 8:32:28 PM :Info: Communicating with sig:MS2Extra comms342h2, MS2/Extra 3.4.3 release  20191126 15:29BST(c)KC/JSM/JB   MS2
+10/1/25, 8:32:29 PM :Debug: String too large for buffer! Will truncate. buffer size: 50, string len: 73, string val: MARK 000 - Going Offline: 280ZX_Narrowband - Wed Oct 01 20:32:29 EDT 2025
+10/1/25, 8:32:29 PM :Debug: String too large for buffer! Will truncate. buffer size: 50, string len: 72, string val: MARK 001 - Going Online: 280ZX_Narrowband - Wed Oct 01 20:32:29 EDT 2025
+10/1/25, 8:32:54 PM :Info: Data log stopped
+10/1/25, 8:32:54 PM :Info: FileOutputStream Closed.
+10/1/25, 8:33:03 PM :Info: Initiating read page 1 : 20:878
+10/1/25, 8:33:03 PM :Info: Initiating read page 3 : 672:1
+10/1/25, 8:33:03 PM :Debug: CRC matches for page 1:x44 x37 xAC xD6                                                       D7..
+10/1/25, 8:33:03 PM :Info: CrC matched skipped controller read on page:0
+10/1/25, 8:33:03 PM :Debug: CRC matches for page 3:xB2 xA6 x6B x0A                                                       ..k.
+10/1/25, 8:33:03 PM :Info: CrC matched skipped controller read on page:2
+10/1/25, 8:33:09 PM :Info: dirtyData.size(): 0
+[Duplicate entry] received 2 times: Info: dirtyData.size(): 0
+10/1/25, 8:33:09 PM :Debug: Flush lasted: 70ms.
+10/1/25, 8:33:09 PM :Debug: Burn Page anonymous: -1
+10/1/25, 8:33:09 PM :Info: skip burn to page:3, lastWritePage = -2
+10/1/25, 8:33:09 PM :Debug: Request to burn page, but no writes have been performed. Ignoring burn. page: 3
+10/1/25, 8:33:28 PM :Info: Re-establishing connection to: RS232: Port:/dev/ttyUSB0, Baud:115200
+[Duplicate entry] received 2 times: Info: Re-establishing connection to: RS232: Port:/dev/ttyUSB0, Baud:115200
+10/1/25, 8:33:29 PM :Debug: No Remaining Queue Write instructions
+10/1/25, 8:33:29 PM :Debug: Went offline
+10/1/25, 8:33:29 PM :Debug: No Remaining Queue Write instructions
+10/1/25, 8:33:29 PM :Info: Went offline 2
+10/1/25, 8:34:41 PM :Info: Local on CAN ID:0, blockingFactor: 256, tableBlockingFactor: 256
+10/1/25, 8:34:41 PM :Info: Target device is local, using localBlockingFactors
+10/1/25, 8:34:41 PM :Info: Sig Bytes:x4D x53 x32 x45 x78 x74 x72 x61 x20 x63 x6F x6D x6D x73 x33 x34       MS2Extra.comms34
+x32 x68 x32 x00                                                       2h2.
+10/1/25, 8:34:41 PM :Info: Communicating with sig:MS2Extra comms342h2, MS2/Extra 3.4.3 release  20191126 15:29BST(c)KC/JSM/JB   MS2
+10/1/25, 8:34:41 PM :Debug: CRC matches for page 1:x44 x37 xAC xD6                                                       D7..
+10/1/25, 8:34:41 PM :Info: CrC matched skipped controller read on page:1
+10/1/25, 8:34:41 PM :Debug: CRC matches for page 2:xCE x7C xB8 x85                                                       .|..
+10/1/25, 8:34:41 PM :Info: CrC matched skipped controller read on page:2
+10/1/25, 8:34:41 PM :Debug: CRC matches for page 3:xB2 xA6 x6B x0A                                                       ..k.
+10/1/25, 8:34:41 PM :Info: CrC matched skipped controller read on page:3
+10/1/25, 8:34:41 PM :Debug: CRC matches for page 4:x73 x10 x33 xDD                                                       s.3.
+10/1/25, 8:34:41 PM :Info: CrC matched skipped controller read on page:4
+10/1/25, 8:34:41 PM :Debug: CRC matches for page 5:x12 x5C x16 x4D                                                       .\.M
+10/1/25, 8:34:41 PM :Info: CrC matched skipped controller read on page:5
+10/1/25, 8:34:41 PM :Debug: CRC matches for page 6:x61 x80 xB9 x61                                                       a..a
+10/1/25, 8:34:41 PM :Info: CrC matched skipped controller read on page:6
+10/1/25, 8:34:41 PM :Debug: CRC matches for page 7:x00 x05 xF8 xAE                                                       ....
+10/1/25, 8:34:41 PM :Info: CrC matched skipped controller read on page:7
+10/1/25, 8:34:41 PM :Debug: Read All Data
+10/1/25, 8:34:41 PM :Debug: isBlank Time: 0 ms.
+10/1/25, 8:34:41 PM :Debug: DiffTime: 5 ms.
+10/1/25, 8:37:22 PM :Debug: File does not exist, creating new:
+/home/steev/TunerStudioProjects/280ZX_Narrowband/CurrentTune.msq
+10/1/25, 8:37:22 PM :Info: Time to save msq: 41.24004
+10/1/25, 8:37:22 PM :Info: closeApp Called
+10/1/25, 8:37:22 PM :Debug: TuneLog Editor set text
+10/1/25, 8:37:22 PM :Debug: File does not exist, creating new:
+/home/steev/TunerStudioProjects/280ZX_Narrowband/restorePoints/280ZX_Narrowband_2025-10-01_20.37.22.msq
+10/1/25, 8:37:22 PM :Info: Time to save msq: 30.453497
+10/1/25, 8:37:22 PM :Info: 280ZX_Narrowband Restore point saved
+10/1/25, 8:37:22 PM :Info: 280ZX_Narrowband Restore point saved to: 280ZX_Narrowband_2025-10-01_20.37.22.msq
+10/1/25, 8:37:22 PM :Info: Time to save msq: 25.76844
+10/1/25, 8:37:22 PM :Debug: goOffline Starting, Time:0
+10/1/25, 8:37:22 PM :Info: Deactivated Turbo Baud, goOffline
+10/1/25, 8:37:22 PM :Debug: Skip Burn, last write page: -2
+10/1/25, 8:37:23 PM :Debug: goOffline about to stopProcessing, Time:251
+10/1/25, 8:37:23 PM :Debug: goOffline Notified offline, Time:252
+10/1/25, 8:37:23 PM :Debug: goOffline closed port, Time:252
+10/1/25, 8:37:23 PM :Info: 280ZX_Narrowband ComThread stopped COMM Thread57892.26285842758
+10/1/25, 8:37:23 PM :Debug: goOffline comm thread stopped, Time:403
+10/1/25, 8:37:23 PM :Debug: No Remaining Queue Write instructions
+10/1/25, 8:37:23 PM :Debug: removing Configuration: 280ZX_Narrowband
+10/1/25, 8:37:23 PM :Info: Time to load non-cached dashboard: 7.319595 ms. file:IgnitionLoggerCluster.dash
+10/1/25, 8:37:23 PM :Debug: Time to save dashboard: 7.650846ms. file: /home/steev/TunerStudioProjects/280ZX_Narrowband//dashboard/IgnitionLoggerCluster.dash
+10/1/25, 8:37:23 PM :Debug: ############################################# Save Project Backup ##########################################
+10/1/25, 8:37:23 PM :Info: Finalizing Sensors
+Saved user properties successfully
+Starting on cyberman
+TunerStudio 3.3.00 started on Wed Oct 01 20:37:32 EDT 2025
+JRE 21.0.8, Linux 6.12.43+deb13-amd64, amd64
+java.library.path=lib/alternateLinuxDrivers/x86_64-linux:lib
+TunerStudioMS.jar
+java.lang.reflect.InaccessibleObjectException: Unable to make field private static java.nio.charset.Charset java.nio.charset.Charset.defaultCharset accessible: module java.base does not "opens java.nio.charset" to unnamed module @6df97b55
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:183)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:177)
+	at TunerStudio.main(Unknown Source)
+Look:Metal, ClassName:'javax.swing.plaf.metal.MetalLookAndFeel'
+Look:Nimbus, ClassName:'javax.swing.plaf.nimbus.NimbusLookAndFeel'
+Look:CDE/Motif, ClassName:'com.sun.java.swing.plaf.motif.MotifLookAndFeel'
+Look:GTK+, ClassName:'com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
+Look:Night Shade, ClassName:'de.muntjak.tinylookandfeel.TinyLookAndFeel'
+Setting Look & Feel to:javax.swing.plaf.metal.MetalLookAndFeel
+ScrollBar.width
+10/1/25, 8:37:32 PM :Debug: no update:defaultFont
+10/1/25, 8:37:32 PM :Info: Initializing File Dialogs.
+10/1/25, 8:37:32 PM :Info: Updating ai & t
+10/1/25, 8:37:32 PM :Info: Loading Language Content.
+10/1/25, 8:37:34 PM :Debug: Command Non-VolatileBytes for F resolved to: x46                                                                   F
+10/1/25, 8:37:34 PM :Debug: Command Non-VolatileBytes for I resolved to: x49                                                                   I
+10/1/25, 8:37:34 PM :Debug: Command Non-VolatileBytes for f resolved to: x66                                                                   f
+10/1/25, 8:37:34 PM :Info: Initializing Plugin Services.
+10/1/25, 8:37:34 PM :Info: Loading Plugins.
+10/1/25, 8:37:34 PM :Info: Initializing Help.
+10/1/25, 8:37:34 PM :Info: Initializing Edition Features.
+10/1/25, 8:37:34 PM :Info: Initializing App Events.
+10/1/25, 8:37:35 PM :Debug: App Name:TunerStudio, appEdition:MS
+10/1/25, 8:37:35 PM :Info: Initializing User Interface
+10/1/25, 8:37:37 PM :Info: Loading Font list.
+10/1/25, 8:37:37 PM :Debug: Time to retreive font name list: 4 ms.
+10/1/25, 8:37:37 PM :Info: 
+10/1/25, 8:37:37 PM :Info: Initializing UI Components.
+10/1/25, 8:37:37 PM :Info: Ready
+10/1/25, 8:37:37 PM :Info: IniUpdate: No updates available.
+10/1/25, 8:37:37 PM :Info: IncUpdate: No updates available.
+MSmain: No check, last update check=Sun Sep 28 16:50:02 EDT 2025
+MSad: No check, last update check=Sun Sep 28 16:50:06 EDT 2025
+10/1/25, 8:38:01 PM :Debug: Time to load ini list: 15ms.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Oct 01, 2025 8:38:08 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 0 (All:1)
+10/1/25, 8:38:08 PM :Debug: Created CheckThread
+Saved user properties successfully
+10/1/25, 8:38:08 PM :Info: Setting connection to: USB D2XX, Serial #Auto @ 115200 Baud
+Oct 01, 2025 8:38:08 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 1 (All:1)
+10/1/25, 8:38:08 PM :Debug: Opening Connection to FTDI Device: USB D2XX, Serial # @ 115200 Baud
+Device: FTDevice{devDescription=, devSerialNumber=}
+Device Type: DEVICE_UNKNOWN
+Device ID: 0
+Device Location ID: 0
+Oct 01, 2025 8:38:08 PM aB.b f
+SEVERE: null
+com.ftdi.FTD2XXException: D2XX error, ftStatus:DEVICE_NOT_FOUND
+	at com.ftdi.FTDevice.ensureFTStatus(FTDevice.java:146)
+	at com.ftdi.FTDevice.open(FTDevice.java:327)
+	at aB.b.f(Unknown Source)
+	at A.t.h(Unknown Source)
+	at A.m.b(Unknown Source)
+	at A.m.a(Unknown Source)
+	at A.n.run(Unknown Source)
+
+10/1/25, 8:38:08 PM :Info: USB D2XX, Serial #Auto @ 115200 Baud Controller not found
+Saved user properties successfully
+Saved user properties successfully
+10/1/25, 8:38:08 PM :Info: Setting connection to: USB D2XX, Serial #Auto @ 9600 Baud
+Oct 01, 2025 8:38:08 PM com.ftdi.FTDevice getDevices
+INFO: Found devs: 1 (All:1)
+10/1/25, 8:38:08 PM :Debug: Opening Connection to FTDI Device: USB D2XX, Serial # @ 9600 Baud
+Device: FTDevice{devDescription=, devSerialNumber=}
+Device Type: DEVICE_UNKNOWN
+Device ID: 0
+Device Location ID: 0
+Oct 01, 2025 8:38:08 PM aB.b f
+SEVERE: null
+com.ftdi.FTD2XXException: D2XX error, ftStatus:DEVICE_NOT_FOUND
+	at com.ftdi.FTDevice.ensureFTStatus(FTDevice.java:146)
+	at com.ftdi.FTDevice.open(FTDevice.java:327)
+	at aB.b.f(Unknown Source)
+	at A.t.h(Unknown Source)
+	at A.m.b(Unknown Source)
+	at A.m.a(Unknown Source)
+	at A.n.run(Unknown Source)
+
+10/1/25, 8:38:08 PM :Info: USB D2XX, Serial #Auto @ 9600 Baud Controller not found
+Saved user properties successfully
+10/1/25, 8:38:09 PM :Debug: set baud to 115200
+Saved user properties successfully
+[Duplicate entry] received 2 times: Debug: set baud to 115200
+10/1/25, 8:38:09 PM :Info: Setting connection to: RS232: Port:/dev/ttyS0, Baud:115200
+10/1/25, 8:38:09 PM :Debug: !!!!!! Time to Connect = 4
+10/1/25, 8:38:11 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x51                                                                   Q
+10/1/25, 8:38:11 PM :Info: Comm Read Thread Change! Old Thread:null, new Thread:check
+
+10/1/25, 8:38:11 PM :Debug: Purged 1 orphaned bytes:
+10/1/25, 8:38:11 PM :Debug: Time:3.298s. 0x0 
+10/1/25, 8:38:11 PM :Debug: Time:3.298s. 
+
+10/1/25, 8:38:11 PM :Debug: Time:3.298s.   .  
+10/1/25, 8:38:11 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200
+10/1/25, 8:38:11 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x53                                                                   S
+10/1/25, 8:38:12 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200
+10/1/25, 8:38:12 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:115200 Command: x0D                                                                   .
+10/1/25, 8:38:13 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:115200, completed this port query
+10/1/25, 8:38:13 PM :Info: Timeout on: RS232: Port:/dev/ttyS0, Baud:115200
+10/1/25, 8:38:13 PM :Info: no Controller found on RS232: Port:/dev/ttyS0, Baud:115200
+Saved user properties successfully
+10/1/25, 8:38:13 PM :Debug: set baud to 9600
+Saved user properties successfully
+10/1/25, 8:38:13 PM :Info: Setting connection to: RS232: Port:/dev/ttyS0, Baud:9600
+10/1/25, 8:38:13 PM :Debug: !!!!!! Time to Connect = 1
+10/1/25, 8:38:14 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x51                                                                   Q
+
+10/1/25, 8:38:14 PM :Debug: Purged 1 orphaned bytes:
+10/1/25, 8:38:14 PM :Debug: Time:6.856s. 0x0 
+10/1/25, 8:38:14 PM :Debug: Time:6.856s. 
+
+10/1/25, 8:38:14 PM :Debug: Time:6.857s.   .  
+10/1/25, 8:38:15 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600
+10/1/25, 8:38:15 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x53                                                                   S
+10/1/25, 8:38:16 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600
+10/1/25, 8:38:16 PM :Debug: Calling RS232: Port:/dev/ttyS0, Baud:9600 Command: x0D                                                                   .
+10/1/25, 8:38:16 PM :Info: Timeout on port: RS232: Port:/dev/ttyS0, Baud:9600, completed this port query
+10/1/25, 8:38:16 PM :Info: Timeout on: RS232: Port:/dev/ttyS0, Baud:9600
+10/1/25, 8:38:16 PM :Info: no Controller found on RS232: Port:/dev/ttyS0, Baud:9600
+Saved user properties successfully
+10/1/25, 8:38:16 PM :Debug: set baud to 115200
+Saved user properties successfully
+10/1/25, 8:38:16 PM :Info: Setting connection to: RS232: Port:/dev/ttyUSB0, Baud:115200
+10/1/25, 8:38:16 PM :Debug: !!!!!! Time to Connect = 4
+10/1/25, 8:38:18 PM :Debug: Calling RS232: Port:/dev/ttyUSB0, Baud:115200 Command: x51                                                                   Q
+10/1/25, 8:38:19 PM :Debug: found signature:MS2Extra comms342h2, using queryCommand:Q
+10/1/25, 8:38:19 PM :Info: Found Device, discontinue search on RS232: Port:/dev/ttyUSB0, Baud:115200
+10/1/25, 8:38:20 PM :Debug: Finished Check:RS232: Port:/dev/ttyUSB0, Baud:115200
+Result:Signature:MS2Extra comms342h2, firmware:MS2/Extra 3.4.3 release  20191126 15:29BST(c)KC/JSM/JB   MS2
+Saved user properties successfully
+10/1/25, 8:38:20 PM :Debug: Device MS2/Extra 3.4.3 release  20191126 15:29BST(c)KC/JSM/JB   MS2, requiring serial Signature:MS2Extra comms342h2 found at:RS232: Port:/dev/ttyUSB0, Baud:115200
+10/1/25, 8:38:20 PM :Debug: set baud to 9600
+10/1/25, 8:38:20 PM :Info: distinctSetting already found for: RS232: Port:/dev/ttyUSB0, Baud:9600
+10/1/25, 8:38:21 PM :Debug: set baud to 115200
+10/1/25, 8:38:21 PM :Debug: set baud to 9600
+Saved user properties successfully
+10/1/25, 8:38:22 PM :Info: Setting connection to: 192.168.1.80:2000
+10/1/25, 8:38:22 PM :Debug: Opening Connection to TCP Device: 192.168.1.80:2000
+10/1/25, 8:38:24 PM :Info: 192.168.1.80:2000 Controller not found
+Saved user properties successfully
+Saved user properties successfully
+10/1/25, 8:38:24 PM :Info: Setting connection to: 192.168.1.81:2000
+10/1/25, 8:38:24 PM :Debug: Opening Connection to TCP Device: 192.168.1.81:2000
+10/1/25, 8:38:26 PM :Debug: Ok, device accepted:Signature:MS2Extra comms342h2, firmware:MS2/Extra 3.4.3 release  20191126 15:29BST(c)KC/JSM/JB   MS2
+10/1/25, 8:38:26 PM :Info: 192.168.1.81:2000 Controller not found
+Saved user properties successfully
+10/1/25, 8:38:27 PM :Debug: goOffline Starting, Time:0
+10/1/25, 8:38:27 PM :Info: Deactivated Turbo Baud, goOffline
+10/1/25, 8:38:27 PM :Debug: goOffline about to stopProcessing, Time:2
+10/1/25, 8:38:27 PM :Debug: goOffline closed port, Time:2
+10/1/25, 8:38:27 PM :Debug: CheckThread exiting
+10/1/25, 8:38:28 PM :Debug: goOffline comm thread stopped, Time:502
+10/1/25, 8:38:28 PM :Debug: No Remaining Queue Write instructions
+10/1/25, 8:38:30 PM :Info: Supported iniSpecVersion=3.78
+[Duplicate entry] received 2 times: Info: Supported iniSpecVersion=3.78
+10/1/25, 8:38:30 PM :Debug: Filtered ConfigurationOptionGroup in 6ms.
+10/1/25, 8:38:32 PM :Info: Supported iniSpecVersion=3.78
+10/1/25, 8:38:32 PM :Info: Read file canPcVariables.ini: 0.174006ms
+10/1/25, 8:38:32 PM :Info: Filtered ini: 0.02555ms
+10/1/25, 8:38:32 PM :Info: No iniVersion defined
+10/1/25, 8:38:32 PM :Info: Loading Trigger Wheels
+10/1/25, 8:38:32 PM :Info: Loaded All known ini sections
+10/1/25, 8:38:32 PM :Info: Parsed and validated ini "canPcVariables.ini" in : 6ms.
+10/1/25, 8:38:32 PM :Info: Read file MS2Extracomms342h2.ini: 3.312727ms
+10/1/25, 8:38:32 PM :Info: Filtered ini: 2.644814ms
+10/1/25, 8:38:32 PM :Info: No iniVersion defined
+10/1/25, 8:38:32 PM :Debug: ini signature: MS2Extra comms342h2
+10/1/25, 8:38:33 PM :Info: Loading Trigger Wheels
+10/1/25, 8:38:33 PM :Info: Loading Depricated ini section [UserDefined], use [UiDialogs]
+10/1/25, 8:38:33 PM :Debug: break 5988812
+10/1/25, 8:38:33 PM :Info: Loaded All known ini sections
+10/1/25, 8:38:33 PM :Info: Parsed and validated ini "MS2Extracomms342h2.ini" in : 86ms.
+10/1/25, 8:38:33 PM :Debug: Adding Configuration: GodzillaRaceworks
+10/1/25, 8:38:33 PM :Debug: goOffline Starting, Time:0
+10/1/25, 8:38:33 PM :Info: Deactivated Turbo Baud, goOffline
+10/1/25, 8:38:33 PM :Debug: goOffline about to stopProcessing, Time:0
+10/1/25, 8:38:33 PM :Debug: goOffline closed port, Time:0
+10/1/25, 8:38:33 PM :Debug: goOffline Starting, Time:0
+[Duplicate entry] received 2 times: Debug: goOffline Starting, Time:0
+10/1/25, 8:38:33 PM :Info: Deactivated Turbo Baud, goOffline
+10/1/25, 8:38:33 PM :Debug: goOffline about to stopProcessing, Time:0
+10/1/25, 8:38:33 PM :Info: Deactivated Turbo Baud, goOffline
+10/1/25, 8:38:33 PM :Debug: goOffline about to stopProcessing, Time:0
+10/1/25, 8:38:33 PM :Debug: goOffline closed port, Time:0
+[Duplicate entry] received 2 times: Debug: goOffline closed port, Time:0
+10/1/25, 8:38:33 PM :Debug: set baud to 115200
+[Duplicate entry] received 2 times: Debug: set baud to 115200
+10/1/25, 8:38:33 PM :Debug: goOffline Starting, Time:0
+10/1/25, 8:38:33 PM :Info: Deactivated Turbo Baud, goOffline
+10/1/25, 8:38:33 PM :Debug: goOffline about to stopProcessing, Time:0
+10/1/25, 8:38:33 PM :Debug: goOffline closed port, Time:0
+10/1/25, 8:38:33 PM :Debug: goOffline comm thread stopped, Time:501
+10/1/25, 8:38:33 PM :Debug: No Remaining Queue Write instructions
+10/1/25, 8:38:33 PM :Debug: goOffline comm thread stopped, Time:501
+10/1/25, 8:38:33 PM :Debug: No Remaining Queue Write instructions
+10/1/25, 8:38:33 PM :Debug: goOffline comm thread stopped, Time:501
+10/1/25, 8:38:33 PM :Debug: No Remaining Queue Write instructions
+10/1/25, 8:38:33 PM :Debug: goOffline comm thread stopped, Time:501
+10/1/25, 8:38:33 PM :Debug: No Remaining Queue Write instructions
+10/1/25, 8:38:33 PM :Info: Setting connection to: RS232: Port:/dev/ttyUSB0, Baud:115200
+10/1/25, 8:38:33 PM :Info: Comm Read Thread Change! Old Thread:null, new Thread:Thread-27
+10/1/25, 8:38:33 PM :Debug: Read from RS232: Port:/dev/ttyUSB0, Baud:115200, signature:x4D x53 x32 x45 x78 x74 x72 x61 x20 x63 x6F x6D x6D x73 x33 x34       MS2Extra.comms34
+x32 x68 x32 x00                                                       2h2.
+10/1/25, 8:38:36 PM :Info: Time to load non-cached dashboard: 91.13272 ms. file:Default (GodzillaRaceworks).dash
+10/1/25, 8:38:36 PM :Info: Time to load uncached dash: 55.331036ms, file: Default (GodzillaRaceworks).dash
+10/1/25, 8:38:36 PM :Debug: High Speed Paint: true
+10/1/25, 8:38:43 PM :Warning: Could not get Firmware signature
+10/1/25, 8:38:43 PM :Info: Time to load non-cached dashboard: 16.73211 ms. file:dashboard.dash
+10/1/25, 8:38:43 PM :Debug: set baud to 115200
+[Duplicate entry] received 2 times: Debug: set baud to 115200
+10/1/25, 8:38:43 PM :Debug: ############################################# Save Project Backup ##########################################
+10/1/25, 8:38:43 PM :Debug: removing Configuration: GodzillaRaceworks
+10/1/25, 8:38:43 PM :Info: No Persistor set, not saving active triggers.
+10/1/25, 8:38:43 PM :Info: Persistor not set, not storing persistent accumulated values.
+10/1/25, 8:38:43 PM :Debug: goOffline Starting, Time:0
+10/1/25, 8:38:43 PM :Info: Deactivated Turbo Baud, goOffline
+10/1/25, 8:38:43 PM :Debug: goOffline about to stopProcessing, Time:0
+10/1/25, 8:38:43 PM :Debug: goOffline closed port, Time:0
+10/1/25, 8:38:44 PM :Debug: goOffline comm thread stopped, Time:500
+10/1/25, 8:38:44 PM :Debug: No Remaining Queue Write instructions
+10/1/25, 8:38:44 PM :Error: Failed to start PaintThrottle Thread: null
+10/1/25, 8:38:44 PM :Info: Error: Failed to start PaintThrottle Thread: null
+10/1/25, 8:38:44 PM :Debug: removing Configuration: GodzillaRaceworks
+10/1/25, 8:38:44 PM :Info: Opening Project ...
+10/1/25, 8:38:44 PM :Debug: Opening project: /home/steev/TunerStudioProjects/GodzillaRaceworks
+10/1/25, 8:38:44 PM :Debug: EventTrigger Data log Reset. expression: 
+10/1/25, 8:38:44 PM :Debug: EventTrigger Stop Data log Reset. expression: 
+10/1/25, 8:38:44 PM :Debug: Reading translation file as plain text
+10/1/25, 8:38:44 PM :Info: Supported iniSpecVersion=3.78
+10/1/25, 8:38:44 PM :Debug: Filtered ConfigurationOptionGroup in 5ms.
+10/1/25, 8:38:44 PM :Info: Supported iniSpecVersion=3.78
+10/1/25, 8:38:44 PM :Info: Read file canPcVariables.ini: 0.22685ms
+10/1/25, 8:38:44 PM :Info: Filtered ini: 0.010631ms
+10/1/25, 8:38:44 PM :Info: No iniVersion defined
+10/1/25, 8:38:44 PM :Info: Loading Trigger Wheels
+10/1/25, 8:38:44 PM :Info: Loaded All known ini sections
+10/1/25, 8:38:44 PM :Info: Parsed and validated ini "canPcVariables.ini" in : 2ms.
+10/1/25, 8:38:44 PM :Info: Read file mainController.ini: 3.513686ms
+10/1/25, 8:38:44 PM :Info: Filtered ini: 2.697786ms
+10/1/25, 8:38:44 PM :Info: No iniVersion defined
+10/1/25, 8:38:44 PM :Debug: ini signature: MS2Extra comms342h2
+10/1/25, 8:38:44 PM :Info: Loading Trigger Wheels
+10/1/25, 8:38:44 PM :Info: Loading Depricated ini section [UserDefined], use [UiDialogs]
+10/1/25, 8:38:44 PM :Debug: break 5988812
+10/1/25, 8:38:44 PM :Info: Loaded All known ini sections
+10/1/25, 8:38:44 PM :Info: Parsed and validated ini "mainController.ini" in : 48ms.
+10/1/25, 8:38:44 PM :Info: Supported iniSpecVersion=3.78
+10/1/25, 8:38:44 PM :Info: Read file ms2Supplement.ecu: 7.529392ms
+10/1/25, 8:38:44 PM :Info: Filtered ini: 0.090189ms
+10/1/25, 8:38:44 PM :Info: No iniVersion defined
+10/1/25, 8:38:44 PM :Info: Loading Trigger Wheels
+10/1/25, 8:38:44 PM :Info: Loading Depricated ini section [UserDefined], use [UiDialogs]
+10/1/25, 8:38:44 PM :Info: Validate Expressions disabled.
+10/1/25, 8:38:44 PM :Info: Loaded All known ini sections
+10/1/25, 8:38:44 PM :Info: Parsed ini "ms2Supplement.ecu" in : 11ms.
+10/1/25, 8:38:44 PM :Info: Supported iniSpecVersion=3.78
+10/1/25, 8:38:44 PM :Info: Read file ms2ExtraDefaultTools.ini: 0.113422ms
+10/1/25, 8:38:44 PM :Info: Filtered ini: 0.005201ms
+10/1/25, 8:38:44 PM :Info: No iniVersion defined
+10/1/25, 8:38:44 PM :Info: Loading Trigger Wheels
+10/1/25, 8:38:44 PM :Info: Loaded All known ini sections
+10/1/25, 8:38:44 PM :Info: Parsed and validated ini "ms2ExtraDefaultTools.ini" in : 1ms.
+10/1/25, 8:38:44 PM :Info: Time to load primary config: 72.30917ms. used cached config: false
+10/1/25, 8:38:44 PM :Info: Supported iniSpecVersion=3.78
+10/1/25, 8:38:44 PM :Info: Read file ms2WueAnalyzeMaps.ecu: 0.252484ms
+10/1/25, 8:38:44 PM :Info: Filtered ini: 0.03986ms
+10/1/25, 8:38:44 PM :Info: No iniVersion defined
+10/1/25, 8:38:44 PM :Info: Loading Trigger Wheels
+10/1/25, 8:38:44 PM :Info: Loaded All known ini sections
+10/1/25, 8:38:44 PM :Info: Parsed and validated ini "ms2WueAnalyzeMaps.ecu" in : 2ms.
+10/1/25, 8:38:44 PM :Debug: set baud to 115200
+10/1/25, 8:38:44 PM :Info: Setting connection to: RS232: Port:/dev/ttyUSB0, Baud:115200
+10/1/25, 8:38:44 PM :Debug: Adding Configuration: GodzillaRaceworks
+10/1/25, 8:38:44 PM :Info: !!! Loaded config in 103
+10/1/25, 8:38:44 PM :Info: !!! Activated Project 254
+10/1/25, 8:38:44 PM :Info: Opening Gauge Cluster..
+10/1/25, 8:38:44 PM :Info: Time to load uncached dash: 39.086685ms, file: dashboard.dash
+10/1/25, 8:38:44 PM :Debug: High Speed Paint: true
+10/1/25, 8:38:44 PM :Info: 
+10/1/25, 8:38:44 PM :Info: Com Thread created: COMM Thread64088.875913532436
+10/1/25, 8:38:44 PM :Info: endModalBlock called, but Root Pane is not a ProgressPane.
+10/1/25, 8:38:44 PM :Info: Comm Manager for GodzillaRaceworks Started, thread ID: COMM Thread64088.875913532436
+10/1/25, 8:38:44 PM :Debug: !!! Opened Dash 551
+10/1/25, 8:38:44 PM :Info: Connecting to controller on: RS232: Port:/dev/ttyUSB0, Baud:115200
+10/1/25, 8:38:44 PM :Info: GodzillaRaceworks Ready
+10/1/25, 8:38:44 PM :Info: Comm Read Thread Change! Old Thread:null, new Thread:COMM Thread64088.875913532436
+10/1/25, 8:38:44 PM :Debug: Tuning View Files loaded in 142.35068ms.
+10/1/25, 8:38:44 PM :Info: Supported iniSpecVersion=3.78
+10/1/25, 8:38:44 PM :Info: Read file ms2ExtraVeAnalyzeMaps.ini: 0.508406ms
+10/1/25, 8:38:44 PM :Info: Filtered ini: 0.215695ms
+10/1/25, 8:38:44 PM :Info: No iniVersion defined
+10/1/25, 8:38:44 PM :Info: Loading Trigger Wheels
+10/1/25, 8:38:44 PM :Info: Loaded All known ini sections
+10/1/25, 8:38:44 PM :Info: Parsed and validated ini "ms2ExtraVeAnalyzeMaps.ini" in : 4ms.
+10/1/25, 8:38:45 PM :Info: Local on CAN ID:0, blockingFactor: 256, tableBlockingFactor: 256
+10/1/25, 8:38:45 PM :Info: Target device is local, using localBlockingFactors
+10/1/25, 8:38:45 PM :Info: Sig Bytes:x4D x53 x32 x45 x78 x74 x72 x61 x20 x63 x6F x6D x6D x73 x33 x34       MS2Extra.comms34
+x32 x68 x32 x00                                                       2h2.
+10/1/25, 8:38:45 PM :Info: Communicating with sig:MS2Extra comms342h2, MS2/Extra 3.4.3 release  20191126 15:29BST(c)KC/JSM/JB   MS2
+10/1/25, 8:38:45 PM :Info: CRC Mismatch, will need to refresh page from controller 
+10/1/25, 8:38:45 PM :Info:    CRC from controller page 1:x44 x37 xAC xD6                                                       D7..
+10/1/25, 8:38:45 PM :Info:    Local Data CRC for page 1: xEF xB5 xAF x2E                                                       ....
+10/1/25, 8:38:45 PM :Debug: Read page time: 178ms.
+10/1/25, 8:38:45 PM :Info: Checksum page 1 data read: x44 x37 xAC xD6                                                       D7..
+10/1/25, 8:38:45 PM :Info: CRC Mismatch, will need to refresh page from controller 
+10/1/25, 8:38:45 PM :Info:    CRC from controller page 2:xCE x7C xB8 x85                                                       .|..
+10/1/25, 8:38:45 PM :Info:    Local Data CRC for page 2: xEF xB5 xAF x2E                                                       ....
+10/1/25, 8:38:45 PM :Debug: Read page time: 181ms.
+10/1/25, 8:38:45 PM :Info: Checksum page 2 data read: xCE x7C xB8 x85                                                       .|..
+10/1/25, 8:38:45 PM :Info: CRC Mismatch, will need to refresh page from controller 
+10/1/25, 8:38:45 PM :Info:    CRC from controller page 3:xB2 xA6 x6B x0A                                                       ..k.
+10/1/25, 8:38:45 PM :Info:    Local Data CRC for page 3: xEF xB5 xAF x2E                                                       ....
+10/1/25, 8:38:45 PM :Debug: Read page time: 180ms.
+10/1/25, 8:38:45 PM :Info: Checksum page 3 data read: xB2 xA6 x6B x0A                                                       ..k.
+10/1/25, 8:38:45 PM :Info: CRC Mismatch, will need to refresh page from controller 
+10/1/25, 8:38:45 PM :Info:    CRC from controller page 4:x73 x10 x33 xDD                                                       s.3.
+10/1/25, 8:38:45 PM :Info:    Local Data CRC for page 4: xEF xB5 xAF x2E                                                       ....
+10/1/25, 8:38:45 PM :Debug: Read page time: 180ms.
+10/1/25, 8:38:45 PM :Info: Checksum page 4 data read: x73 x10 x33 xDD                                                       s.3.
+10/1/25, 8:38:45 PM :Info: CRC Mismatch, will need to refresh page from controller 
+10/1/25, 8:38:45 PM :Info:    CRC from controller page 5:x12 x5C x16 x4D                                                       .\.M
+10/1/25, 8:38:45 PM :Info:    Local Data CRC for page 5: xEF xB5 xAF x2E                                                       ....
+10/1/25, 8:38:45 PM :Debug: Read page time: 180ms.
+10/1/25, 8:38:45 PM :Info: Checksum page 5 data read: x12 x5C x16 x4D                                                       .\.M
+10/1/25, 8:38:46 PM :Info: CRC Mismatch, will need to refresh page from controller 
+10/1/25, 8:38:46 PM :Info:    CRC from controller page 6:x61 x80 xB9 x61                                                       a..a
+10/1/25, 8:38:46 PM :Info:    Local Data CRC for page 6: xEF xB5 xAF x2E                                                       ....
+10/1/25, 8:38:46 PM :Debug: Read page time: 180ms.
+10/1/25, 8:38:46 PM :Info: Checksum page 6 data read: x61 x80 xB9 x61                                                       a..a
+10/1/25, 8:38:46 PM :Info: CRC Mismatch, will need to refresh page from controller 
+10/1/25, 8:38:46 PM :Info:    CRC from controller page 7:x00 x05 xF8 xAE                                                       ....
+10/1/25, 8:38:46 PM :Info:    Local Data CRC for page 7: xEF xB5 xAF x2E                                                       ....
+10/1/25, 8:38:46 PM :Debug: Read page time: 180ms.
+10/1/25, 8:38:46 PM :Info: Checksum page 7 data read: x00 x05 xF8 xAE                                                       ....
+10/1/25, 8:38:46 PM :Debug: Read All Data
+10/1/25, 8:38:46 PM :Info: rtbaroport changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: spk_config_trig2l changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: ego2port changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: algorithm changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: OddFireang changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: IACStart changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: mapport changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: mycan_id changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: IACcurlim changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: baroCorr changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: spkout_hi_lo2 changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: IgnAlgorithm changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: spk_mode0 changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: divider changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: nInjectors changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: NoiseFilterOpts changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: No_Miss_Teeth changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: alternate changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: IAC_tinitial_step changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: spk_config_trig2 changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: triggerTeeth changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: flexport changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: nCylinders changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: boost_ctl_pins changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: launch_opt_pins changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: staged_pri_size changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: staged_sec_size changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: hybrid_hyst changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: hybrid_rpm changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: ac_idleup_io_out changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: shift_cut_in changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Info: shift_cut_out changed and requires a PowerCycle
+10/1/25, 8:38:46 PM :Debug: Fill Constants: 29
+10/1/25, 8:39:09 PM :Info: Logger Processor stopped.
+[Duplicate entry] received 4 times: Info: Logger Processor stopped.
+10/1/25, 8:39:09 PM :Debug: High Speed Paint: true
+10/1/25, 8:39:09 PM :Debug: Deactivated fast paint IgnitionLoggerCluster
+10/1/25, 8:39:40 PM :Debug: High Speed Paint: true
+[Duplicate entry] received 4 times: Debug: High Speed Paint: true
+10/1/25, 8:40:42 PM :Debug: File Not Found for signature: /home/steev/TunerStudioProjects/GodzillaRaceworks/godzilla_raceworks_base_load
+10/1/25, 8:40:42 PM :Debug: EcuConfigName for Save:GodzillaRaceworks
+10/1/25, 8:40:42 PM :Info: file:godzilla_raceworks_base_load.msq is not Monitored, cannot pause Monitoring of it.
+10/1/25, 8:40:42 PM :Debug: File does not exist, creating new:
+/home/steev/TunerStudioProjects/GodzillaRaceworks/godzilla_raceworks_base_load.msq
+10/1/25, 8:40:42 PM :Info: Time to save msq: 20.197977
+10/1/25, 8:40:42 PM :Info: GodzillaRaceworks Tune Saved!
+10/1/25, 8:40:42 PM :Info: file:godzilla_raceworks_base_load.msq is not Monitored, cannot unpause Monitoring of it.
