@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-    <bibliography author="TunerStudio MS 3.3.00 - EFI Analytics, Inc." tuneComment="" writeDate="Tue Oct 07 10:42:15 EDT 2025"/>
+    <bibliography author="TunerStudio MS 3.3.00 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Oct 06 16:13:26 EDT 2025"/>
     <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+3.4.3+release++20191126+15%3A29BST%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms342h2"/>
     <page>
         <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -38,18 +38,6 @@
          -0.1 
          0.0 
       </pcVariable>
-        <pcVariable cols="1" digits="0" name="wueAnalRecommend" rows="10" units="%">
-         85.0 
-         85.0 
-         85.0 
-         85.0 
-         85.0 
-         85.0 
-         85.0 
-         85.0 
-         85.0 
-         85.0 
-      </pcVariable>
     </page>
     <page number="0" size="1024">
         <constant name="nCylinders">"6"</constant>
@@ -59,7 +47,7 @@
         <constant name="spkout_hi_lo">"Going High (Inverted)"</constant>
         <constant name="spkout_hi_lo2">"Going High"</constant>
         <constant name="injctl">"Off"</constant>
-        <constant name="injctl2_1">"Off"</constant>
+        <constant name="injctl2_1">"On"</constant>
         <constant name="injctl2_2">"On"</constant>
         <constant digits="1" name="max_coil_dur" units="ms">2.997</constant>
         <constant digits="1" name="max_spk_dur" units="ms">0.999</constant>
@@ -132,16 +120,16 @@
          13.0 12.9 12.9 12.8 12.8 12.7 12.6 12.5 12.5 12.2 12.2 12.2 
       </constant>
         <constant cols="1" digits="0" name="wueBins" rows="10" units="%">
-         85.0 
-         85.0 
-         85.0 
-         85.0 
-         85.0 
-         85.0 
-         85.0 
-         85.0 
-         85.0 
-         85.0 
+         155.0 
+         152.0 
+         153.0 
+         185.0 
+         175.0 
+         165.0 
+         165.0 
+         152.0 
+         143.0 
+         130.0 
       </constant>
         <constant cols="1" digits="1" name="taeBins" rows="4" units="ms">
          2.0 
@@ -253,8 +241,8 @@
         <constant digits="0" name="cltmult" units="%">100.0</constant>
         <constant digits="1" name="mat0" units="°F">0.0</constant>
         <constant digits="0" name="matmult" units="%">100.0</constant>
-        <constant digits="0" name="tpsMin" units="ADC">242.0</constant>
-        <constant digits="0" name="tpsMax" units="ADC">889.0</constant>
+        <constant digits="0" name="tpsMin" units="ADC">0.0</constant>
+        <constant digits="0" name="tpsMax" units="ADC">661.0</constant>
         <constant digits="1" name="batt0" units="V">0.1</constant>
         <constant digits="1" name="battmax" units="V">29.7</constant>
         <constant digits="1" name="ego0" units="afr">0.0</constant>
@@ -864,16 +852,16 @@
          2.0 
       </constant>
         <constant cols="1" digits="0" name="crankPctTable" rows="10" units="%">
-         351.0 
-         351.0 
-         344.0 
-         341.0 
-         250.0 
-         250.0 
-         243.0 
-         156.0 
+         326.0 
+         301.0 
+         276.0 
+         251.0 
+         226.0 
+         201.0 
+         176.0 
+         151.0 
          126.0 
-         103.0 
+         101.0 
       </constant>
         <constant cols="1" digits="0" name="asePctTable" rows="10" units="%">
          64.0 
@@ -1075,16 +1063,16 @@
         <constant name="injpw_pins">"Off"</constant>
         <constant digits="1" name="injpw_scale" units="%">100.0</constant>
         <constant cols="1" digits="1" name="temp_table_p5" rows="10" units="°F">
-         -20.2 
-         15.8 
-         50.1 
-         87.3 
-         94.5 
-         123.3 
-         149.7 
-         159.3 
+         6.4 
+         28.2 
+         45.0 
+         68.9 
+         89.3 
+         120.2 
+         144.1 
+         150.0 
          170.0 
-         203.2 
+         180.0 
       </constant>
         <constant digits="0" name="tsf_rpm" units="rpm">6000.0</constant>
         <constant digits="1" name="tsf_kpa" units="kPa">100.0</constant>
@@ -1345,7 +1333,7 @@
         <constant digits="0" name="flats_arm" units="RPM">4000.0</constant>
         <constant digits="2" name="flats_deg" units="deg">5.0</constant>
         <constant digits="0" name="flats_hrd" units="RPM">4800.0</constant>
-        <constant digits="0" name="staged_pri_size" units="cc">440.0</constant>
+        <constant digits="0" name="staged_pri_size" units="cc">265.0</constant>
         <constant digits="0" name="staged_sec_size" units="cc">0.0</constant>
         <constant name="staged_first_param">"Off"</constant>
         <constant name="staged_second_param">"Off"</constant>
@@ -1863,10 +1851,10 @@
     </page>
     <page number="4" size="1024">
         <constant cols="16" digits="0" name="veTable1" rows="16" units="%">
-         80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
-         80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
-         80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
-         80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
+         47.0 48.0 48.0 70.0 70.0 70.0 80.0 70.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         54.0 56.0 56.0 59.0 60.0 60.0 56.0 56.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         54.0 56.0 56.0 61.0 62.0 63.0 58.0 61.0 64.0 67.0 70.0 73.0 76.0 79.0 82.0 85.0 
+         58.0 61.0 61.0 61.0 61.0 61.0 59.0 62.0 65.0 67.0 70.0 74.0 77.0 80.0 84.0 87.0 
          61.0 63.0 65.0 67.0 68.0 70.0 68.0 71.0 74.0 77.0 80.0 83.0 86.0 89.0 92.0 95.0 
          66.0 69.0 71.0 74.0 76.0 79.0 77.0 80.0 82.0 88.0 90.0 93.0 96.0 99.0 101.0 104.0 
          70.0 73.0 75.0 78.0 81.0 83.0 81.0 83.0 86.0 88.0 91.0 93.0 96.0 98.0 101.0 103.0 
@@ -2025,12 +2013,12 @@
          100.0 
       </constant>
         <constant cols="12" digits="0" name="veTable1dozen" rows="12" units="%">
-         80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
-         80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
-         80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
-         80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
-         80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 80.0 
-         80.0 80.0 80.0 80.0 61.0 63.0 65.0 67.0 68.0 70.0 68.0 71.0 
+         47.0 48.0 48.0 70.0 70.0 70.0 80.0 70.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 54.0 56.0 56.0 59.0 60.0 60.0 56.0 56.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 54.0 56.0 56.0 61.0 
+         62.0 63.0 58.0 61.0 64.0 67.0 70.0 73.0 76.0 79.0 82.0 85.0 
+         58.0 61.0 61.0 61.0 61.0 61.0 59.0 62.0 65.0 67.0 70.0 74.0 
+         77.0 80.0 84.0 87.0 61.0 63.0 65.0 67.0 68.0 70.0 68.0 71.0 
          74.0 77.0 80.0 83.0 86.0 89.0 92.0 95.0 66.0 69.0 71.0 74.0 
          76.0 79.0 77.0 80.0 82.0 88.0 90.0 93.0 96.0 99.0 101.0 104.0 
          70.0 73.0 75.0 78.0 81.0 83.0 81.0 83.0 86.0 88.0 91.0 93.0 

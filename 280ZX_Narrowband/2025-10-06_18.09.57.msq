@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-    <bibliography author="TunerStudio MS 3.3.00 - EFI Analytics, Inc." tuneComment="" writeDate="Tue Oct 07 10:42:15 EDT 2025"/>
+    <bibliography author="TunerStudio MS 3.3.00 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Oct 06 18:10:01 EDT 2025"/>
     <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+3.4.3+release++20191126+15%3A29BST%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms342h2"/>
     <page>
         <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -37,18 +37,6 @@
          -0.2 
          -0.1 
          0.0 
-      </pcVariable>
-        <pcVariable cols="1" digits="0" name="wueAnalRecommend" rows="10" units="%">
-         85.0 
-         85.0 
-         85.0 
-         85.0 
-         85.0 
-         85.0 
-         85.0 
-         85.0 
-         85.0 
-         85.0 
       </pcVariable>
     </page>
     <page number="0" size="1024">
@@ -253,8 +241,8 @@
         <constant digits="0" name="cltmult" units="%">100.0</constant>
         <constant digits="1" name="mat0" units="°F">0.0</constant>
         <constant digits="0" name="matmult" units="%">100.0</constant>
-        <constant digits="0" name="tpsMin" units="ADC">242.0</constant>
-        <constant digits="0" name="tpsMax" units="ADC">889.0</constant>
+        <constant digits="0" name="tpsMin" units="ADC">0.0</constant>
+        <constant digits="0" name="tpsMax" units="ADC">661.0</constant>
         <constant digits="1" name="batt0" units="V">0.1</constant>
         <constant digits="1" name="battmax" units="V">29.7</constant>
         <constant digits="1" name="ego0" units="afr">0.0</constant>

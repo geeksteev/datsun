@@ -1,7 +1,9 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Wed Oct 01 20:30:46 EDT 2025
-#Wed Oct 01 20:30:46 EDT 2025
+#Last Saved on: Mon Oct 06 18:10:44 EDT 2025
+#Mon Oct 06 18:10:44 EDT 2025
+CommSettingBaud\ Rate=115200
+CommSettingCom\ Port=
 CommSettingMSCommDriver.RS232\ Serial\ Interface2nd\ Com\ Port=
 CommSettingMSCommDriver.RS232\ Serial\ InterfaceBaud\ Rate=115200
 CommSettingMSCommDriver.RS232\ Serial\ InterfaceBluetooth\ Port=false
@@ -12,12 +14,60 @@ CommSettingcybermanCommDriver.RS232\ Serial\ InterfaceBaud\ Rate=115200
 CommSettingcybermanCommDriver.RS232\ Serial\ InterfaceBluetooth\ Port=false
 CommSettingcybermanCommDriver.RS232\ Serial\ InterfaceCom\ Port=/dev/ttyUSB0
 CommSettingcybermanCommDriver.controllerInterfaceId=RS232 Serial Interface
+Triggers.ActiveTriggers=
+baseEngine\ and\ Sequential\ Settings_X=577
+baseEngine\ and\ Sequential\ Settings_Y=341
+baseEngine\ and\ Sequential\ Settings_height=548
+baseEngine\ and\ Sequential\ Settings_width=766
 baudRate=115200
+canId=0
+combinedidleIdle\ Control_X=615
+combinedidleIdle\ Control_Y=393
+combinedidleIdle\ Control_height=444
+combinedidleIdle\ Control_width=689
 commPort=
+crankingPWCranking\ Pulse\ %_X=600
+crankingPWCranking\ Pulse\ %_Y=376
+crankingPWCranking\ Pulse\ %_height=479
+crankingPWCranking\ Pulse\ %_width=720
+crsettingsCranking\ /\ Startup\ Settings_X=754
+crsettingsCranking\ /\ Startup\ Settings_Y=465
+crsettingsCranking\ /\ Startup\ Settings_height=300
+crsettingsCranking\ /\ Startup\ Settings_width=412
 dashBoardFile=/dashboard//dashboard.dash
 ecuConfigFile=mainController.ini
 ecuSettings=CAN_COMMANDS|CAN_COMMANDS|EGTFULL_OFF|EGTFULL_OFF|EXPANDED_CLT_TEMP_OFF|EXPANDED_CLT_TEMP_OFF|FAHRENHEIT|FAHRENHEIT|NARROW_BAND_EGO|NARROW_BAND_EGO|OUTMSG_EDITING_OFF|OUTMSG_EDITING_OFF|PORT_STATUS_OFF|PORT_STATUS_OFF|
+ecuUid=d142399a-4101-4f1c-9065-19c799e177ca
+firmwareDescription=MS2/Extra 3.4.3 release  20191126 15\:29BST(c)KC/JSM/JB   MS2
+idleAdvanceIdle\ Advance\ Settings_X=809
+idleAdvanceIdle\ Advance\ Settings_Y=441
+idleAdvanceIdle\ Advance\ Settings_height=349
+idleAdvanceIdle\ Advance\ Settings_width=302
+injCharsInjector\ Dead-Time/PWM_X=787
+injCharsInjector\ Dead-Time/PWM_Y=321
+injCharsInjector\ Dead-Time/PWM_height=589
+injCharsInjector\ Dead-Time/PWM_width=346
+lastDisplayedTuneFile=2025-10-06_18.09.57.msq
+logFileDir=/home/steev/TunerStudioProjects/280ZX_Narrowband/DataLogs
+nestedwarmup_curveWarmup\ Enrichment\ (WUE)\ -\ Percent\ Multiplier_X=593
+nestedwarmup_curveWarmup\ Enrichment\ (WUE)\ -\ Percent\ Multiplier_Y=355
+nestedwarmup_curveWarmup\ Enrichment\ (WUE)\ -\ Percent\ Multiplier_height=521
+nestedwarmup_curveWarmup\ Enrichment\ (WUE)\ -\ Percent\ Multiplier_width=733
+primingPWPriming\ Pulse_X=600
+primingPWPriming\ Pulse_Y=376
+primingPWPriming\ Pulse_height=494
+primingPWPriming\ Pulse_width=959
 projectDescription=
 projectName=280ZX_Narrowband
 selectedComDriver=Multi Interface MegaSquirt Driver
+stagedCombinedStaged\ Injection_X=626
+stagedCombinedStaged\ Injection_Y=370
+stagedCombinedStaged\ Injection_height=491
+stagedCombinedStaged\ Injection_width=668
+tuneFileDir=/home/steev/TunerStudioProjects/280ZX_Narrowband
 useCommonDashboardDir=false
+useCommonTuneViewDir=false
+veTable1TblFuel\ VE\ Table\ 1_X=616
+veTable1TblFuel\ VE\ Table\ 1_Y=399
+veTable1TblFuel\ VE\ Table\ 1_height=433
+veTable1TblFuel\ VE\ Table\ 1_width=688

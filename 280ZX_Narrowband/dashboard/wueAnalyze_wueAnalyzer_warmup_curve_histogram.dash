@@ -6,7 +6,7 @@
         <dashComp type="Gauge">
             <RunDemo type="boolean">false</RunDemo>
             <MustPaint type="boolean">true</MustPaint>
-            <GroupId type="int">1318856487</GroupId>
+            <GroupId type="int">844029451</GroupId>
             <GoingDead type="boolean">false</GoingDead>
             <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
             <BorderWidth type="int">1</BorderWidth>
@@ -37,7 +37,7 @@
             <NeedleColor alpha="255" blue="255" green="255" red="0" type="Color">-16711681</NeedleColor>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
-            <ShortestSize type="int">183</ShortestSize>
+            <ShortestSize type="int">194</ShortestSize>
             <SmoothedValue type="double">0.0</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
@@ -81,7 +81,7 @@
         <dashComp type="Gauge">
             <RunDemo type="boolean">false</RunDemo>
             <MustPaint type="boolean">true</MustPaint>
-            <GroupId type="int">1318856487</GroupId>
+            <GroupId type="int">844029451</GroupId>
             <GoingDead type="boolean">false</GoingDead>
             <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
             <BorderWidth type="int">0</BorderWidth>
@@ -112,7 +112,7 @@
             <NeedleColor alpha="255" blue="102" green="0" red="0" type="Color">-16777114</NeedleColor>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
-            <ShortestSize type="int">37</ShortestSize>
+            <ShortestSize type="int">40</ShortestSize>
             <SmoothedValue type="double">0.0</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
@@ -156,7 +156,7 @@
         <dashComp type="Gauge">
             <RunDemo type="boolean">false</RunDemo>
             <MustPaint type="boolean">true</MustPaint>
-            <GroupId type="int">444053350</GroupId>
+            <GroupId type="int">665875870</GroupId>
             <GoingDead type="boolean">false</GoingDead>
             <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
             <BorderWidth type="int">1</BorderWidth>
@@ -187,7 +187,7 @@
             <NeedleColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</NeedleColor>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
-            <ShortestSize type="int">183</ShortestSize>
+            <ShortestSize type="int">194</ShortestSize>
             <SmoothedValue type="double">0.0</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
@@ -231,7 +231,7 @@
         <dashComp type="Gauge">
             <RunDemo type="boolean">false</RunDemo>
             <MustPaint type="boolean">true</MustPaint>
-            <GroupId type="int">444053350</GroupId>
+            <GroupId type="int">665875870</GroupId>
             <GoingDead type="boolean">false</GoingDead>
             <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
             <BorderWidth type="int">0</BorderWidth>
@@ -262,7 +262,7 @@
             <NeedleColor alpha="255" blue="102" green="0" red="0" type="Color">-16777114</NeedleColor>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
-            <ShortestSize type="int">37</ShortestSize>
+            <ShortestSize type="int">40</ShortestSize>
             <SmoothedValue type="double">0.0</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
@@ -306,7 +306,7 @@
         <dashComp type="Gauge">
             <RunDemo type="boolean">false</RunDemo>
             <MustPaint type="boolean">true</MustPaint>
-            <GroupId type="int">972689594</GroupId>
+            <GroupId type="int">973698015</GroupId>
             <GoingDead type="boolean">false</GoingDead>
             <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
             <BorderWidth type="int">1</BorderWidth>
@@ -337,7 +337,7 @@
             <NeedleColor alpha="255" blue="0" green="255" red="255" type="Color">-256</NeedleColor>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
-            <ShortestSize type="int">183</ShortestSize>
+            <ShortestSize type="int">194</ShortestSize>
             <SmoothedValue type="double">0.0</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
@@ -381,7 +381,7 @@
         <dashComp type="Gauge">
             <RunDemo type="boolean">false</RunDemo>
             <MustPaint type="boolean">true</MustPaint>
-            <GroupId type="int">972689594</GroupId>
+            <GroupId type="int">973698015</GroupId>
             <GoingDead type="boolean">false</GoingDead>
             <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
             <BorderWidth type="int">0</BorderWidth>
@@ -412,7 +412,7 @@
             <NeedleColor alpha="255" blue="102" green="0" red="0" type="Color">-16777114</NeedleColor>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
-            <ShortestSize type="int">37</ShortestSize>
+            <ShortestSize type="int">40</ShortestSize>
             <SmoothedValue type="double">0.0</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
@@ -456,7 +456,7 @@
         <dashComp type="Gauge">
             <RunDemo type="boolean">false</RunDemo>
             <MustPaint type="boolean">true</MustPaint>
-            <GroupId type="int">239255933</GroupId>
+            <GroupId type="int">760209169</GroupId>
             <GoingDead type="boolean">false</GoingDead>
             <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
             <BorderWidth type="int">1</BorderWidth>
@@ -487,7 +487,7 @@
             <NeedleColor alpha="255" blue="0" green="255" red="0" type="Color">-16711936</NeedleColor>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
-            <ShortestSize type="int">183</ShortestSize>
+            <ShortestSize type="int">194</ShortestSize>
             <SmoothedValue type="double">50.0</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
@@ -531,7 +531,7 @@
         <dashComp type="Gauge">
             <RunDemo type="boolean">false</RunDemo>
             <MustPaint type="boolean">true</MustPaint>
-            <GroupId type="int">239255933</GroupId>
+            <GroupId type="int">760209169</GroupId>
             <GoingDead type="boolean">false</GoingDead>
             <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
             <BorderWidth type="int">0</BorderWidth>
@@ -562,7 +562,7 @@
             <NeedleColor alpha="255" blue="102" green="0" red="0" type="Color">-16777114</NeedleColor>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
-            <ShortestSize type="int">37</ShortestSize>
+            <ShortestSize type="int">40</ShortestSize>
             <SmoothedValue type="double">50.0</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
@@ -606,7 +606,7 @@
         <dashComp type="Gauge">
             <RunDemo type="boolean">false</RunDemo>
             <MustPaint type="boolean">true</MustPaint>
-            <GroupId type="int">397355616</GroupId>
+            <GroupId type="int">808345793</GroupId>
             <GoingDead type="boolean">false</GoingDead>
             <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
             <BorderWidth type="int">1</BorderWidth>
@@ -637,7 +637,7 @@
             <NeedleColor alpha="255" blue="255" green="0" red="255" type="Color">-65281</NeedleColor>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
-            <ShortestSize type="int">183</ShortestSize>
+            <ShortestSize type="int">194</ShortestSize>
             <SmoothedValue type="double">50.0</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
@@ -681,7 +681,7 @@
         <dashComp type="Gauge">
             <RunDemo type="boolean">false</RunDemo>
             <MustPaint type="boolean">true</MustPaint>
-            <GroupId type="int">397355616</GroupId>
+            <GroupId type="int">808345793</GroupId>
             <GoingDead type="boolean">false</GoingDead>
             <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
             <BorderWidth type="int">0</BorderWidth>
@@ -712,7 +712,7 @@
             <NeedleColor alpha="255" blue="102" green="0" red="0" type="Color">-16777114</NeedleColor>
             <NeedleSmoothing type="int">1</NeedleSmoothing>
             <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
-            <ShortestSize type="int">37</ShortestSize>
+            <ShortestSize type="int">40</ShortestSize>
             <SmoothedValue type="double">50.0</SmoothedValue>
             <StartAngle type="int">0</StartAngle>
             <SweepAngle type="int">300</SweepAngle>
